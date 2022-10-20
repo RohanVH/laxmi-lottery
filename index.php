@@ -852,79 +852,11 @@
 
                 </ul>
             </div>
-            <?php include("randomnum.php"); ?>
+            <?php include("fetchData.php"); ?>
         </div>
         <input class="last_time" name="last_record" type="hidden" value="2022/08/26 14:00:00">
     </section>
-    <!-- latest-winner-section end -->
-
-    <!--
-<main id="main-container" role="main" class="container-fluid px-0">
-	<article id="post-29" class="post-29 page type-page status-publish hentry">
-		<div class="entry-content">
-
-			<div class="container my-5">
-				<div class="row px-4">
-					<div class="col-12 col-lg-8">
-						
-
-<div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
-
-		<div class="col mb-4">
-		<div class="card h-100">
-						<div class="card-body">
-				<h4><a href="https://lottery.digitalapp.co.in/" title="Home Page">Home Page</a></h4>
-		    	<p class="mb-0"></p>
-			</div>
-			<div class="card-footer bg-transparent border-0 pt-0">
-				<a href="https://lottery.digitalapp.co.in/" class="mt-auto btn btn-dark mb-2">Read More</a>
-			</div>
-		</div>
-	</div>
-
-	 
-</div>	
-<div class="pagination mb-4 d-flex justify-content-center">
-	</div>					</div>
-
-					<aside class="col-12 col-lg-4 px-0 px-lg-4">
-						
-<aside id="sidebar" class="sidebar" role="complementary">
-	<div id="block-2" class="widget_block widget_search card mb-4"><form role="search" method="get" action="https://lottery.digitalapp.co.in/" class="wp-block-search__button-outside wp-block-search__text-button wp-block-search"><label for="wp-block-search__input-1" class="wp-block-search__label">Search</label><div class="wp-block-search__inside-wrapper " ><input type="search" id="wp-block-search__input-1" class="wp-block-search__input " name="s" value="" placeholder=""  required /><button type="submit" class="wp-block-search__button  "  >Search</button></div></form></div><div id="block-3" class="widget_block card mb-4"><div class="wp-container-1 wp-block-group"><div class="wp-block-group__inner-container"><h2>Recent Posts</h2><ul class="wp-block-latest-posts__list wp-block-latest-posts"><li><a class="wp-block-latest-posts__post-title" href="https://lottery.digitalapp.co.in/hello-world/">Hello world!</a></li>
-</ul></div></div></div><div id="block-4" class="widget_block card mb-4"><div class="wp-container-2 wp-block-group"><div class="wp-block-group__inner-container"><h2>Recent Comments</h2><ol class="wp-block-latest-comments"><li class="wp-block-latest-comments__comment"><article><footer class="wp-block-latest-comments__comment-meta"><a class="wp-block-latest-comments__comment-author" href="https://wordpress.org/">A WordPress Commenter</a> on <a class="wp-block-latest-comments__comment-link" href="https://lottery.digitalapp.co.in/hello-world/#comment-1">Hello world!</a></footer></article></li></ol></div></div></div></aside>
-
-					</aside>
-
-				</div>
-			</div>
-
-		</div>
-	</article>
-</main>
--->
-    <!--<div id="footer-widgets" class="footer-widgets px-3">
-    <div class="container-fluid">
-        <div class="row pb-0 pt-5 pb-lg-5">
-        
-                        <div class="col mb-4 mb-lg-0">
-                <div id="block-5"> 
-<div class="wp-container-3 wp-block-group"><div class="wp-block-group__inner-container"></div></div>
-</div><div id="block-6"> 
-<div class="wp-container-4 wp-block-group"><div class="wp-block-group__inner-container"></div></div>
-</div>  
-            </div>
-                
-                
-                
-            
-        </div>
-    </div>
-</div>-->
-    <!--  <footer class="text-center p-3 " role="contentinfo">
-      <div class="site-info">&copy;2022 Copyright <a href="https://componentblox.com/">Component Blox.</a> Powered by <a href="https://wordpress.org/">
-         WordPress</a> &amp; <a href="https://getbootstrap.com/" title="Bootstrap"> Bootstrap</a>.      </div>
-   </footer>-->
-    <!-- footer-section start -->
+   
     <footer class="footer-section">
         <div class="footer-top">
             <div class="container">
