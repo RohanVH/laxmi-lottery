@@ -2,39 +2,36 @@
 	<div class="col-md-4">
 		<form method="post" action="" id="login_form1">
 			<div class="form-group">
-				<label class="control-label">Student Name</label>
-				<input type="text" name="std_name" value="<?php echo $name ?>" class="form-control input-sm" required>
+				<label class="control-label">Enter the value of AA</label>
+				<input type="text" name="AA" value="<?php echo $AA; ?>" class="form-control input-sm" required>
 			</div>
 
 			<div class="form-group">
-				<label class="control-label">Student Reg. No</label>
-				<input type="text" name="std_no" value="<?php echo $matric; ?>" class="form-control input-sm" required>
+				<label class="control-label">Enter the value of BB</label>
+				<input type="text" name="BB" value="<?php echo $BB; ?>" class="form-control input-sm" required>
 			</div>
-
 			<div class="form-group">
-				<label class="control-label">Department</label>
-				<input type="text" name="std_dept" value="<?php echo $department; ?>" class="form-control input-sm" required>
+				<label class="control-label">Enter the value of CC</label>
+				<input type="text" name="CC" value="<?php echo $CC; ?>" class="form-control input-sm" required>
 			</div>
-
 			<div class="form-group">
-				<label class="control-label">Class</label>
-				<select name="std_class" class="form-control input-sm " required>
-				  <option value="<?php echo $level; ?>" selected><?php echo $level; ?></option>
-				  <option value="ND">ND 1</option>
-				  <option value="ND 2">ND 2</option>
-				  <option value="ND 3">ND 3</option>
-				  <option value="HND 1">HND 1</option>
-				  <option value="HND 2">HND 2</option>
-				  <option value="HND 3">HND 3</option>
-				</select>
+				<label class="control-label">Enter the value of A</label>
+				<input type="text" name="a" value="<?php echo $A; ?>" class="form-control input-sm" required>
 			</div>
-            <input type="hidden" name="std_id" value="<?php echo $id; ?>">
-			<button type="submit" class="btn btn-sm btn-default">Submit</button>
+			<div class="form-group">
+				<label class="control-label">Enter the value of B</label>
+				<input type="text" name="b" value="<?php echo $B; ?>" class="form-control input-sm" required>
+			</div>
+			<div class="form-group">
+				<label class="control-label">Enter the value of C</label>
+				<input type="text" name="c" value="<?php echo $C; ?>" class="form-control input-sm" required>
+			</div>
+			<button type="submit" class="btn btn-sm btn-default" name="submit">Submit</button>
 		</form>
 	</div>
 
 	<div class="col-md-8">
-		<?php include 'all_student.php'; ?>
+		<?php include 'all_project.php'; ?>
 	</div>
 </div>
 <script>
@@ -44,19 +41,19 @@ $("#login_form1").submit(function(e){
 		var formData = $(this).serialize();
 		$.ajax({
 			type: "POST",
-			url: "updatestudent.php",
+			url: "updateproject.php",
 			data: formData,
 			success: function(html){
 			if(html=='true')
 			{
 
 				$.jGrowl("Please Wait......", { sticky: true });
-				$.jGrowl("Student successfully updated", { header: 'Success !!' });
+				$.jGrowl("Successfully added", { header: 'Success !!' });
 				var delay = 5000;
-					setTimeout(function(){ window.location = 'create-student.php'  }, delay);  
+					setTimeout(function(){ window.location = 'create-project.php'  }, delay);  
 			}else
 			{
-			    $.jGrowl("Error creating project", { header: 'Project creation failed' });
+			    $.jGrowl("Error updating", { header: 'update failed' });
 			}
 			}
 		});

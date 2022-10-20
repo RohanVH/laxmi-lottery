@@ -29,7 +29,7 @@ $AA=$BB=$CC=$A=$B=$C=0;
 				<label class="control-label">Enter the value of C</label>
 				<input type="text" name="c" value="<?php echo $C; ?>" class="form-control input-sm" required>
 			</div>
-			<button type="submit" class="btn btn-sm btn-default">Submit</button>
+			<button type="submit" class="btn btn-sm btn-default" name="submit">Submit</button>
 		</form>
 	</div>
 

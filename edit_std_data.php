@@ -22,6 +22,6 @@ if(isset($_GET['id']) AND !empty($_GET['id'])){
 
 <body>
 <?php include 'dashboard_navbar.php'; ?>
-<h3>Edit Students' Project</h3>
+<h3>CHANGE/ADD DATA</h3>
 <?php include 'edit_std_form.php'; ?>
 <?php include 'footer.php'; ?>

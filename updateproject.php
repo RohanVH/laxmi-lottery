@@ -1,14 +1,21 @@
 <?php
  require 'init.php';
- $project_name = $_POST['project_name'];
- $project_level = $_POST['project_level'];
- $project_case = $_POST['project_case'];
- $project_id = $_POST['project_id'];
+ if(isset($_POST['id']) AND !empty($_GET['id'])){
+	$AA = $_POST['AA'];
+	$BB = $_POST['BB'];
+	$CC = $_POST['CC'];
+	$a = $_POST['a'];
+	$b = $_POST['b'];
+	$c = $_POST['c'];
+	$id = $_POST['id'];
 
- $query = $db->query("UPDATE project SET project_name = '$project_name',project_level = '$project_level',project_case = '$project_case' WHERE id = '$project_id' ");
-
- if($query){
- 	echo 'true';
- }else{
- 	echo 'false';
- }
+	$query = $db->query("UPDATE randdata SET AA = '$AA', BB = '$BB',CC = '$CC',a='$a',b='$b',c='$c' WHERE id = $id");
+	header('location: create-project.php');
+	
+}
+if($query){
+	echo 'true';
+}else{
+	echo 'false';
+}
+?>
