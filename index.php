@@ -844,14 +844,6 @@
     <!-- latest-winner-section start -->
     <section class="latest-winner-section">
         <div class="container">
-
-            <div style="text-align:center;">
-                <ul class="nav nav-tabs" style="margin:10px;">
-                    <li><a class="btn btn-danger" href="https://lottery.digitalapp.co.in/">Single</a></li>
-                    <li><a href="https://lottery.digitalapp.co.in/jodi/" class="btn btn-danger">Jodi</a></li>
-
-                </ul>
-            </div>
             <?php include("fetchData.php"); ?>
         </div>
         <input class="last_time" name="last_record" type="hidden" value="2022/08/26 14:00:00">
