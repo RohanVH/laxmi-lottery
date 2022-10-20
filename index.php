@@ -782,18 +782,24 @@
             </filter>
         </defs>
     </svg>
-    <header id="nav-header" class="clear " role="header">
+    <header id="nav-header" class="clear" role="header">
+        <div class="col-md-12 d-flex justify-content-end  bg-dark">
+                         <br>
+                         <br>
+                        <button class="bn btn-danger btn-lg my-5" ><a href="login.html" class="text-light">ADMIN</a></button>
+                        <br>
+                        <br>
+        </div>
 
-        <nav id="bcb-main-navbar" class="navbar-light navbar navbar-expand-lg py-0 ">
+        <nav id="bcb-main-navbar" class="navbar-light navbar navbar-expand-lg py-0 bg-dark ">
             <div class="container ">
                 <div class="col-md-12">
                     <a id="navbar-brand-logo" class="navbar-brand" href="https://lottery.digitalapp.co.in">
                         <img src="https://lottery.digitalapp.co.in/wp-content/uploads/2022/10/lottery-logo.gif" alt="Lottery" />
                     </a>
-
-
-
                 </div>
+                
+
             </div>
         </nav>
     </header>
