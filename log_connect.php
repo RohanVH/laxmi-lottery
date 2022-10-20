@@ -1,3 +1,9 @@
+<!-- /**
+ * Author:    Rohan
+ * Created:   21.10.2022
+ * 
+ * (c) Copyright by Dword Core.
+ **/ -->
 <?php
 include 'config.php';
 $email=$_POST['email'];

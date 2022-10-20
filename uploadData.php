@@ -1,3 +1,9 @@
+<!-- /**
+ * Author:    Rohan
+ * Created:   21.10.2022
+ * 
+ * (c) Copyright by Dword Core.
+ **/ -->
 <?php
 date_default_timezone_set('Asia/Kolkata');
 include("config.php");

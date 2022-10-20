@@ -1,7 +1,13 @@
+<!-- /**
+ * Author:    Rohan
+ * Created:   21.10.2022
+ * 
+ * (c) Copyright by Dword Core.
+ **/ -->
 <?php
 include('config.php');
 date_default_timezone_set('Asia/Kolkata');
-if (date('h') == '09') {
+if (date('ha') == '09am') {
     for ($number = 0; $number <=59; $number++) {
         
         if(date('i') >=00 && date('i')<15){
@@ -42,7 +48,7 @@ if (date('h') == '09') {
     
     }
 }
-if (date('h') == '10') {
+if (date('ha') == '10am') {
     for ($number = 0; $number <=59; $number++) {
         
         if(date('i') >=00 && date('i')<15){
@@ -83,7 +89,7 @@ if (date('h') == '10') {
     
     }
 }
-if (date('h') == '11') {
+if (date('ha') == '11am') {
     for ($number = 0; $number <=59; $number++) {
         
         if(date('i') >=00 && date('i')<15){
@@ -124,7 +130,7 @@ if (date('h') == '11') {
     
     }
 }
-if (date('h') == '12') {
+if (date('ha') == '12pm') {
     for ($number = 0; $number <=59; $number++) {
         
         if(date('i') >=00 && date('i')<15){
@@ -165,7 +171,7 @@ if (date('h') == '12') {
     
     }
 }
-if (date('h') == '01') {
+if (date('ha') == '01pm') {
     for ($number = 0; $number <=59; $number++) {
         
         if(date('i') >=00 && date('i')<15){
@@ -206,7 +212,7 @@ if (date('h') == '01') {
     
     }
 }
-if (date('h') == '02') {
+if (date('ha') == '02pm') {
     for ($number = 0; $number <=59; $number++) {
         
         if(date('i') >=00 && date('i')<15){
@@ -247,7 +253,7 @@ if (date('h') == '02') {
     
     }
 }
-if (date('h') == '03') {
+if (date('ha') == '03pm') {
     for ($number = 0; $number <=59; $number++) {
         
         if(date('i') >=00 && date('i')<15){
@@ -288,7 +294,7 @@ if (date('h') == '03') {
     
     }
 }
-if (date('h') == '04') {
+if (date('ha') == '04pm') {
     for ($number = 0; $number <=59; $number++) {
         
         if(date('i') >=00 && date('i')<15){
@@ -329,7 +335,7 @@ if (date('h') == '04') {
     
     }
 }
-if (date('h') == '05') {
+if (date('ha') == '05pm') {
     for ($number = 0; $number <=59; $number++) {
         
         if(date('i') >=00 && date('i')<15){
@@ -370,7 +376,7 @@ if (date('h') == '05') {
     
     }
 }
-if (date('h') == '06') {
+if (date('ha') == '06pm') {
     for ($number = 0; $number <=59; $number++) {
         
         if(date('i') >=00 && date('i')<15){
@@ -411,7 +417,7 @@ if (date('h') == '06') {
     
     }
 }
-if (date('h') == '07') {
+if (date('ha') == '07pm') {
     for ($number = 0; $number <=59; $number++) {
         
         if(date('i') >=00 && date('i')<15){
@@ -452,7 +458,7 @@ if (date('h') == '07') {
     
     }
 }
-if (date('h') == '08') {
+if (date('ha') == '08pm') {
     for ($number = 0; $number <=59; $number++) {
         
         if(date('i') >=00 && date('i')<15){
@@ -489,8 +495,48 @@ if (date('h') == '08') {
                 include("fetchVal.php");
             }
         }
-          
-    
+        
+        
     }
+}
+if (date('ha')== '09pm' || date('ha') == '10pm'|| date('ha') =='11pm' || date('ha') == '12am'|| date('ha') =='01am' || date('ha') =='02am' || date('ha') =='03am' || date('ha') =='04am' || date('ha') =='05am' || date('ha') =='06am' || date('ha') =='07am' || date('ha') == '08am') {
+    echo "<br>
+    <div class='container bg-secondary'>
+        <br>
+        <div class='container d-flex justify-content-center'>
+            
+            <table class='table  table-hover text-center h4 border border-dark border-5'>
+                <tr style='background-color:black;color:white;' class='my-5 '>
+                    <th>AA</th>
+                    <th>BB</th>
+                    <th>CC</th>
+                </tr>
+                <tr class='my-4 bg-light'>
+                    <th>-</th>
+                    <th>-</th>
+                    <th>-</th>
+                </tr>
+            </table>
+        </div>
+        <div class='container d-flex justify-content-center'>
+        <table class='table table-hover text-center h4 border border-dark border-5'>
+        <tr style='background-color:black;color:white'>
+                    <th>A</th>
+                    <th>B</th>
+                    <th>C</th>
+        </tr>
+        <tr class='my-3 bg-light'>
+                    <th>
+                        -
+                    </th>
+                    <th>
+                        -
+                    </th>
+                    <th>
+                        -
+                    </th>
+        </tr></table>
+        </div>
+        </div><br>";
 }
 ?>

@@ -1,3 +1,9 @@
+<!-- /**
+ * Author:    Rohan
+ * Created:   21.10.2022
+ * 
+ * (c) Copyright by Dword Core.
+ **/ -->
 <!doctype html>
 <html dir="ltr" lang="en-US" prefix="og: https://ogp.me/ns#" class="no-js">
 
@@ -786,16 +792,16 @@
         <div class="col-md-12 d-flex justify-content-end  bg-dark">
                          <br>
                          <br>
-                        <button class="bn btn-danger btn-lg my-5" ><a href="login.html" class="text-light">ADMIN</a></button>
+                        <button class="bn btn-danger btn-lg my-5" ><a href="admin.php" class="text-light">ADMIN</a></button>
                         <br>
                         <br>
         </div>
 
         <nav id="bcb-main-navbar" class="navbar-light navbar navbar-expand-lg py-0 bg-dark ">
             <div class="container ">
-                <div class="col-md-12">
-                    <a id="navbar-brand-logo" class="navbar-brand" href="https://lottery.digitalapp.co.in">
-                        <img src="https://lottery.digitalapp.co.in/wp-content/uploads/2022/10/lottery-logo.gif" alt="Lottery" />
+                <div class="col-md-12 d-flex justify-content-start">
+                    <a id="navbar-brand-logo" class="navbar-brand" href="">
+                        <img src="img/lottery-logo.gif" alt="Lottery" />
                     </a>
                 </div>
                 
@@ -918,7 +924,7 @@
         </div>
         <div class="footer-bottom text-center">
             <div class="container">
-                <p>2022 All Rights Reserved. Luxmi Gold Lottery.</p>
+                <p>Copyright © 2022 Dword Core. All rights reserved.</p>
             </div>
         </div>
     </footer>
