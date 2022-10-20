@@ -83,13 +83,7 @@ else{
                 <th>B</th>
                 <th>C</th>
             </tr>
-            <?php
-            $result = mysqli_query($connectdb, "SELECT AA,BB,CC,a,b,c FROM randdata WHERE id = $id");
-            if (!$result) {
-                echo '';
-            }
-            $row = mysqli_fetch_row($result);
-            if(mysqli_num_rows($result) == 0) {?>
+            
             <tr class="my-3 bg-light">
                 <th>
                     <?php
@@ -125,11 +119,7 @@ else{
                     ?>
                 </th>
             </tr>
-            <?php }else{?>
-                <tr class="my-3 bg-light">
-                    <td class="h3">Temporary Closed</td>
-                </tr>
-            <?php } ?>
+           
         </table>
     </div>
 </div>
