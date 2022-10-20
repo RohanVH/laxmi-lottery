@@ -60,9 +60,9 @@ elseif (date('ha')<'09am'){
             $datainsert = mysqli_query($connectdb, $sql1);
             if($datainsert){
     
-                echo "<h4>Numbers Uploaded.</h4>";
                 $num = $num + 1;
             }
+            echo "<h4>Numbers Uploaded.</h4>";
         }
         
     }

@@ -100,8 +100,6 @@ if(isset($_POST["admin_name"]))
  $admin_name_error = '';
 
  $password_error = '';
- $captcha_error = '';
- $invalid_error = '';
  
  
 

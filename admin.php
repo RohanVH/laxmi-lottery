@@ -12,19 +12,19 @@ include 'credential.php';
 //Fuction
 
 
-function test_input($data) {
-	$isequal = "=";
-$oneone = "1=1";
-$quote ='"';
+// function test_input($data) {
+// 	$isequal = "=";
+// $oneone = "1=1";
+// $quote ='"';
 	
-if ($data==$isequal or $data==$oneone or $data=="105" or $data==$quote) {
-$data="";
-}
-  $data = trim($data);
-  $data = stripslashes($data);
-  $data = htmlspecialchars($data);
-  return $data;
-}
+// if ($data==$isequal or $data==$oneone or $data=="105" or $data==$quote) {
+// $data="";
+// }
+//   $data = trim($data);
+//   $data = stripslashes($data);
+//   $data = htmlspecialchars($data);
+//   return $data;
+// }
 
 
 
