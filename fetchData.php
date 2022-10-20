@@ -11,6 +11,7 @@ if (date('h') == '09') {
                 include("fetchVal.php");
             }
         }
+        
 
         if(date('i') >= 15 && date('i') < 30){
             $number = strval($number);
@@ -19,6 +20,7 @@ if (date('h') == '09') {
                 include("fetchVal.php");
             }
         }
+        
 
         if(date('i') >= 30 && date('i') < 45){
             $number = strval($number);
@@ -27,6 +29,7 @@ if (date('h') == '09') {
                 include("fetchVal.php");
             }
         }
+        
 
         if(date('i') >= 45 && date('i') < 60){
             $number = strval($number);
@@ -34,7 +37,8 @@ if (date('h') == '09') {
                 $id=4;
                 include("fetchVal.php");
             }
-        }  
+        }
+          
     
     }
 }
@@ -48,6 +52,7 @@ if (date('h') == '10') {
                 include("fetchVal.php");
             }
         }
+        
 
         if(date('i') >= 15 && date('i') < 30){
             $number = strval($number);
@@ -56,6 +61,7 @@ if (date('h') == '10') {
                 include("fetchVal.php");
             }
         }
+        
 
         if(date('i') >= 30 && date('i') < 45){
             $number = strval($number);
@@ -64,6 +70,7 @@ if (date('h') == '10') {
                 include("fetchVal.php");
             }
         }
+        
 
         if(date('i') >= 45 && date('i') < 60){
             $number = strval($number);
@@ -71,7 +78,8 @@ if (date('h') == '10') {
                 $id=8;
                 include("fetchVal.php");
             }
-        }  
+        }
+          
     
     }
 }
@@ -85,6 +93,7 @@ if (date('h') == '11') {
                 include("fetchVal.php");
             }
         }
+        
 
         if(date('i') >= 15 && date('i') < 30){
             $number = strval($number);
@@ -93,6 +102,7 @@ if (date('h') == '11') {
                 include("fetchVal.php");
             }
         }
+        
 
         if(date('i') >= 30 && date('i') < 45){
             $number = strval($number);
@@ -101,6 +111,7 @@ if (date('h') == '11') {
                 include("fetchVal.php");
             }
         }
+        
 
         if(date('i') >= 45 && date('i') < 60){
             $number = strval($number);
@@ -108,7 +119,8 @@ if (date('h') == '11') {
                 $id=12;
                 include("fetchVal.php");
             }
-        }  
+        }
+          
     
     }
 }
@@ -122,6 +134,7 @@ if (date('h') == '12') {
                 include("fetchVal.php");
             }
         }
+        
 
         if(date('i') >= 15 && date('i') < 30){
             $number = strval($number);
@@ -130,6 +143,7 @@ if (date('h') == '12') {
                 include("fetchVal.php");
             }
         }
+        
 
         if(date('i') >= 30 && date('i') < 45){
             $number = strval($number);
@@ -138,6 +152,7 @@ if (date('h') == '12') {
                 include("fetchVal.php");
             }
         }
+        
 
         if(date('i') >= 45 && date('i') < 60){
             $number = strval($number);
@@ -145,7 +160,8 @@ if (date('h') == '12') {
                 $id=16;
                 include("fetchVal.php");
             }
-        }  
+        }
+          
     
     }
 }
@@ -159,6 +175,7 @@ if (date('h') == '01') {
                 include("fetchVal.php");
             }
         }
+        
 
         if(date('i') >= 15 && date('i') < 30){
             $number = strval($number);
@@ -167,6 +184,7 @@ if (date('h') == '01') {
                 include("fetchVal.php");
             }
         }
+        
 
         if(date('i') >= 30 && date('i') < 45){
             $number = strval($number);
@@ -175,6 +193,7 @@ if (date('h') == '01') {
                 include("fetchVal.php");
             }
         }
+        
 
         if(date('i') >= 45 && date('i') < 60){
             $number = strval($number);
@@ -182,7 +201,8 @@ if (date('h') == '01') {
                 $id=20;
                 include("fetchVal.php");
             }
-        }  
+        }
+          
     
     }
 }
@@ -196,6 +216,7 @@ if (date('h') == '02') {
                 include("fetchVal.php");
             }
         }
+        
 
         if(date('i') >= 15 && date('i') < 30){
             $number = strval($number);
@@ -204,6 +225,7 @@ if (date('h') == '02') {
                 include("fetchVal.php");
             }
         }
+        
 
         if(date('i') >= 30 && date('i') < 45){
             $number = strval($number);
@@ -212,6 +234,7 @@ if (date('h') == '02') {
                 include("fetchVal.php");
             }
         }
+        
 
         if(date('i') >= 45 && date('i') < 60){
             $number = strval($number);
@@ -219,7 +242,8 @@ if (date('h') == '02') {
                 $id=24;
                 include("fetchVal.php");
             }
-        }  
+        }
+          
     
     }
 }
@@ -233,6 +257,7 @@ if (date('h') == '03') {
                 include("fetchVal.php");
             }
         }
+        
 
         if(date('i') >= 15 && date('i') < 30){
             $number = strval($number);
@@ -241,6 +266,7 @@ if (date('h') == '03') {
                 include("fetchVal.php");
             }
         }
+        
 
         if(date('i') >= 30 && date('i') < 45){
             $number = strval($number);
@@ -249,6 +275,7 @@ if (date('h') == '03') {
                 include("fetchVal.php");
             }
         }
+        
 
         if(date('i') >= 45 && date('i') < 60){
             $number = strval($number);
@@ -256,7 +283,8 @@ if (date('h') == '03') {
                 $id=28;
                 include("fetchVal.php");
             }
-        }  
+        }
+          
     
     }
 }
@@ -270,6 +298,7 @@ if (date('h') == '04') {
                 include("fetchVal.php");
             }
         }
+        
 
         if(date('i') >= 15 && date('i') < 30){
             $number = strval($number);
@@ -278,6 +307,7 @@ if (date('h') == '04') {
                 include("fetchVal.php");
             }
         }
+        
 
         if(date('i') >= 30 && date('i') < 45){
             $number = strval($number);
@@ -286,6 +316,7 @@ if (date('h') == '04') {
                 include("fetchVal.php");
             }
         }
+        
 
         if(date('i') >= 45 && date('i') < 60){
             $number = strval($number);
@@ -293,7 +324,8 @@ if (date('h') == '04') {
                 $id=32;
                 include("fetchVal.php");
             }
-        }  
+        }
+          
     
     }
 }
@@ -307,6 +339,7 @@ if (date('h') == '05') {
                 include("fetchVal.php");
             }
         }
+        
 
         if(date('i') >= 15 && date('i') < 30){
             $number = strval($number);
@@ -315,6 +348,7 @@ if (date('h') == '05') {
                 include("fetchVal.php");
             }
         }
+        
 
         if(date('i') >= 30 && date('i') < 45){
             $number = strval($number);
@@ -323,6 +357,7 @@ if (date('h') == '05') {
                 include("fetchVal.php");
             }
         }
+        
 
         if(date('i') >= 45 && date('i') < 60){
             $number = strval($number);
@@ -330,7 +365,8 @@ if (date('h') == '05') {
                 $id=36;
                 include("fetchVal.php");
             }
-        }  
+        }
+          
     
     }
 }
@@ -344,6 +380,7 @@ if (date('h') == '06') {
                 include("fetchVal.php");
             }
         }
+        
 
         if(date('i') >= 15 && date('i') < 30){
             $number = strval($number);
@@ -352,6 +389,7 @@ if (date('h') == '06') {
                 include("fetchVal.php");
             }
         }
+        
 
         if(date('i') >= 30 && date('i') < 45){
             $number = strval($number);
@@ -360,6 +398,7 @@ if (date('h') == '06') {
                 include("fetchVal.php");
             }
         }
+        
 
         if(date('i') >= 45 && date('i') < 60){
             $number = strval($number);
@@ -367,7 +406,8 @@ if (date('h') == '06') {
                 $id=40;
                 include("fetchVal.php");
             }
-        }  
+        }
+          
     
     }
 }
@@ -381,6 +421,7 @@ if (date('h') == '07') {
                 include("fetchVal.php");
             }
         }
+        
 
         if(date('i') >= 15 && date('i') < 30){
             $number = strval($number);
@@ -389,6 +430,7 @@ if (date('h') == '07') {
                 include("fetchVal.php");
             }
         }
+        
 
         if(date('i') >= 30 && date('i') < 45){
             $number = strval($number);
@@ -397,6 +439,7 @@ if (date('h') == '07') {
                 include("fetchVal.php");
             }
         }
+        
 
         if(date('i') >= 45 && date('i') < 60){
             $number = strval($number);
@@ -404,7 +447,8 @@ if (date('h') == '07') {
                 $id=44;
                 include("fetchVal.php");
             }
-        }  
+        }
+          
     
     }
 }
@@ -418,6 +462,7 @@ if (date('h') == '08') {
                 include("fetchVal.php");
             }
         }
+        
 
         if(date('i') >= 15 && date('i') < 30){
             $number = strval($number);
@@ -426,6 +471,7 @@ if (date('h') == '08') {
                 include("fetchVal.php");
             }
         }
+        
 
         if(date('i') >= 30 && date('i') < 45){
             $number = strval($number);
@@ -434,6 +480,7 @@ if (date('h') == '08') {
                 include("fetchVal.php");
             }
         }
+        
 
         if(date('i') >= 45 && date('i') < 60){
             $number = strval($number);
@@ -441,7 +488,8 @@ if (date('h') == '08') {
                 $id=48;
                 include("fetchVal.php");
             }
-        }  
+        }
+          
     
     }
 }

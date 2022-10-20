@@ -1,17 +1,24 @@
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 <?php
+
 $result = mysqli_query($connectdb, "SELECT AA,BB,CC,a,b,c FROM randdata WHERE id = $id");
 if (!$result) {
-    echo 'No DATA';
+    echo '';
 }
 $row = mysqli_fetch_row($result);
-$aa = $row[0];
-$bb = $row[1];
-$cc = $row[2];
-$a = $row[3];
-$b = $row[4];
-$c = $row[5];
+if($row){
+
+    $aa = $row[0];
+    $bb = $row[1];
+    $cc = $row[2];
+    $a = $row[3];
+    $b = $row[4];
+    $c = $row[5];
+}
+else{
+    echo "";
+}
 ?>
 <br>
 <br>
@@ -29,17 +36,37 @@ $c = $row[5];
             <tr class="my-4 bg-light">
                 <th>
                     <?php
-                    echo $aa;
+                    if ($row) {
+
+                        $aa = $row[0];  
+                        echo $aa;
+                    }
+                    else{
+                        echo '';
+                    }
+                    
                     ?>
                 </th>
                 <th>
                     <?php
-                    echo $bb;
+                    if ($row) {
+
+                        $bb = $row[1];
+                        echo $bb;
+                    } else {
+                        echo '';
+                    }
                     ?>
                 </th>
                 <th>
                     <?php
-                    echo $cc;
+                    if ($row) {
+
+                        $cc = $row[2];
+                        echo $cc;
+                    } else {
+                        echo '';
+                    }
 
                     ?>
                 </th>
@@ -56,24 +83,53 @@ $c = $row[5];
                 <th>B</th>
                 <th>C</th>
             </tr>
+            <?php
+            $result = mysqli_query($connectdb, "SELECT AA,BB,CC,a,b,c FROM randdata WHERE id = $id");
+            if (!$result) {
+                echo '';
+            }
+            $row = mysqli_fetch_row($result);
+            if(mysqli_num_rows($result) == 0) {?>
             <tr class="my-3 bg-light">
                 <th>
                     <?php
-                    echo $a;
+                    if ($row) {
+
+                        $a = $row[3];
+                        echo $a;
+                    } else {
+                        echo '';
+                    }
                     ?>
                 </th>
                 <th>
                     <?php
-                    echo $b;
+                    if ($row) {
+
+                        $b = $row[4];
+                        echo $b;
+                    } else {
+                        echo '';
+                    }
                     ?>
                 </th>
                 <th>
                     <?php
-                    echo $c;
+                    if ($row) {
+
+                        $c = $row[5];
+                        echo $c;
+                    } else {
+                        echo '';
+                    }
                     ?>
                 </th>
             </tr>
-
+            <?php }else{?>
+                <tr class="my-3 bg-light">
+                    <td class="h3">Temporary Closed</td>
+                </tr>
+            <?php } ?>
         </table>
     </div>
 </div>

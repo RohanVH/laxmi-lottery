@@ -19,13 +19,13 @@
 
     <!-- All in One SEO 4.2.6.1 - aioseo.com -->
     <meta name="robots" content="max-image-preview:large" />
-    <link rel="canonical" href="https://lottery.digitalapp.co.in/" />
+    <link rel="canonical" href="" />
     <meta name="generator" content="All in One SEO (AIOSEO) 4.2.6.1 " />
     <meta property="og:locale" content="en_US" />
     <meta property="og:site_name" content="Lottery - Just another WordPress site" />
     <meta property="og:type" content="article" />
     <meta property="og:title" content="Home Page - Lottery" />
-    <meta property="og:url" content="https://lottery.digitalapp.co.in/" />
+    <meta property="og:url" content="" />
     <meta property="og:image" content="https://lottery.digitalapp.co.in/wp-content/uploads/2022/10/lottery-logo.gif" />
     <meta property="og:image:secure_url" content="https://lottery.digitalapp.co.in/wp-content/uploads/2022/10/lottery-logo.gif" />
     <meta property="article:published_time" content="2022-10-17T08:59:07+00:00" />
