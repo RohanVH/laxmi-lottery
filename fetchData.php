@@ -6,6 +6,8 @@
  **/ -->
 <?php
 include('config.php');
+include('config_lotteryhistory.php');
+
 date_default_timezone_set('Asia/Kolkata');
 if (date('ha') == '09am') {
     for ($number = 0; $number <=59; $number++) {
@@ -21,10 +23,47 @@ if (date('ha') == '09am') {
 
         if(date('i') >= 15 && date('i') < 30){
             $number = strval($number);
-            if(date('i')== date($number)){
-                $id=2;
-                include("fetchVal.php");
+            $id=2;
+
+            // history and status update
+            $start_time='09:00am';
+            $end_time='09:15am';
+            $date=date('d-m-Y');
+
+
+            $insert_status="INSERT into `randata`(time,status) Values('$start_time','Completed')";
+            $data = mysqli_query($connectdb, "SELECT AA,BB,CC,a,b,c FROM randdata WHERE id =1");
+            if (!$result) {
+                echo '';
             }
+            $row = mysqli_fetch_row($result);
+            if($row){
+
+                $aa = $row[0];
+                $bb = $row[1];
+                $cc = $row[2];
+                $a = $row[3];
+                $b = $row[4];
+                $c = $row[5];
+                $insert_to_history="INSERT into jodi_single value('','$date','$start_time','$AA','$BB','$BB','$a','$end_time')";
+                $datainsert1 = mysqli_query($connectdb1, $insert_to_history);
+                if($datainsert1){
+                    echo '';
+                }
+                else{
+                    echo '<script>alert("ERROR: failed to upload.");</script>';
+                }
+                
+            }
+            else{
+                echo "";
+            }
+
+            $datainsert = mysqli_query($connectdb, $insert_status);
+            if($datainsert){
+                echo '';
+            }
+            include("fetchVal.php");
         }
         
 

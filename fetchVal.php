@@ -23,10 +23,10 @@ else{
 <br>
 <br>
 <br>
-<div class="container bg-secondary">
+<div class="container">
     <br>
     <div class="container d-flex justify-content-center">
-        
+        <center><h3 style="font-family:Times New Roman, Times, serif;" class="text-danger"><span class="h2">JODI</span></h3></center>
         <table class="table  table-hover text-center h4 border border-dark border-5">
             <tr style="background-color:black;color:white;" class="my-5 ">
                 <th>AA</th>
@@ -37,7 +37,7 @@ else{
                 <th>
                     <?php
                     if ($row) {
-
+                        
                         $aa = $row[0];  
                         echo $aa;
                     }
@@ -50,7 +50,7 @@ else{
                 <th>
                     <?php
                     if ($row) {
-
+                        
                         $bb = $row[1];
                         echo $bb;
                     } else {
@@ -76,6 +76,7 @@ else{
     <br>
     <br>
     <br>
+    <center><h3 style="font-family:Times New Roman, Times, serif;" class="text-danger">SINGLE</h3></center>
     <div class="container d-flex justify-content-center">
         <table class="table table-hover text-center h4 border border-dark border-5">
             <tr style="background-color:black;color:white">
@@ -88,7 +89,7 @@ else{
                 <th>
                     <?php
                     if ($row) {
-
+                        
                         $a = $row[3];
                         echo $a;
                     } else {
@@ -121,6 +122,33 @@ else{
             </tr>
            
         </table>
+    </div>
+    <div class="container">
+        <label for="" class="h2 text-start">Results:</label><br>
+        <p>
+            <a class="btn btn-danger" data-bs-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Jodi</a>
+            <button class="btn btn-danger" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">Single</button>
+            <button class="btn btn-danger" type="button" data-bs-toggle="collapse" data-bs-target=".multi-collapse" aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2">Both</button>
+        </p>
+        <div class="row">
+            <!-- jodi -->
+            <div class="col">
+                <div class="collapse multi-collapse" id="multiCollapseExample1">
+                <div class="card card-body">
+                    jodi.
+                </div>
+                </div>
+            </div>
+            <!-- single -->
+            <div class="col">
+                <div class="collapse multi-collapse" id="multiCollapseExample2">
+                    <div class="card card-body">
+                        Single.
+                    </div>
+                </div>
+            </div>
+        </div>
+        
     </div>
 </div>
 <br>
