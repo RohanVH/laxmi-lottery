@@ -1,16 +1,16 @@
 <?php
  require 'init.php';
- $std_name = $_POST['std_name'];
- $std_dept = $_POST['std_dept'];
- $std_no = $_POST['std_no'];
- $std_class = $_POST['std_class'];
- $date = date('Y-m-d');
- $project_id = $_POST['project_id'];
+  $AA = $_POST['AA'];
+ $BB = $_POST['BB'];
+ $CC = $_POST['CC'];
+ $a = $_POST['a'];
+ $b = $_POST['b'];
+ $c = $_POST['c'];
 
- $query = $db->query("INSERT INTO student(name,department,level,matric,date,project_id)VALUES('$std_name','$std_dept','$std_class','$std_no','$date','$project_id')");
+ $query = $db->query("INSERT INTO randdata('AA','BB','CC','a'.'b','c')VALUES('$AA','$BB','$BB','$a','$b','$c')");
 
  if($query){
- 	$update = $db->query("UPDATE project SET allocation = 1 WHERE id = '$project_id' ");
+ 	$update = $db->query("UPDATE project SET allocation = 1 WHERE id = '$id' ");
  	echo 'true';
 
  }else{

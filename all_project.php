@@ -1,14 +1,14 @@
 <table class="table table-bordered table-hover project_table">
 	<thead>
-		<tr>
-		<th>id</th>
+		<tr style="color:white;background-color:black;">
+		<th>ID</th>
 			<th>AA</th>
 			<th>BB</th>
 			<th>CC</th>
       		<th>A</th>
 			<th>B</th>
 			<th>C</th>
-			<th>Options</th>
+			<th style="display:flex;justify-content:center;">Options</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -33,8 +33,7 @@
                 <td><?php echo $B; ?></td>
                 <td><?php echo $C; ?></td>
              	</td>
-             	<td>
-             	    <a class="btn btn-xs btn-primary" href="editproject.php?id=<?php echo $row->id; ?>"><i class="fa fa-edit"></i></a>
+             	<td style="display:flex;justify-content:center;">
              		  <a class="btn btn-xs btn-danger" onclick="return confirm('Are you sure you want to delete? ')" href="deleteproject.php?id=<?php echo $row->id; ?>"><i class="fa fa-trash"></i></a>
              	</td>
              </tr>

@@ -33,7 +33,6 @@
               <td><?php echo $B; ?></td>
               <td><?php echo $C; ?></td>
              	<td>
-             	    <a class="btn btn-xs btn-primary" href="edit_std_data.php?id=<?php echo $row->id; ?>"><i class="fa fa-edit"></i></a>
              		  <a class="btn btn-xs btn-danger" onclick="return confirm('Are you sure you want to delete? ')" href="delete_std_data.php?id=<?php echo $row->id; ?>"><i class="fa fa-trash"></i></a>
              	</td>
              </tr>

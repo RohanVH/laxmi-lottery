@@ -55,7 +55,7 @@ $("#login_form1").submit(function(e){
 					setTimeout(function(){ window.location = 'dashboard.php'  }, delay);  
 			}else
 			{
-			    $.jGrowl("Error creating project", { header: 'Project creation failed' });
+			    $.jGrowl("Error creating", { header: 'creation failed' });
 			}
 			}
 		});
