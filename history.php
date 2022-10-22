@@ -8,7 +8,7 @@
 <?php include 'head.php'; ?>
 <body>
 <?php include 'dashboard_navbar.php'; ?>
-<h3>Random Numbers</h3>
+<h3>HISTORY</h3>
 <div class="table-responsive">
 	
 		<tbody>

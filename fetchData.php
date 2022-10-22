@@ -17,7 +17,7 @@ if (date('ha') == '09am') {
                 
                 $id=1;
                 include('create_historyBlank.php');
-                include("fetchVal.php");
+                include_once("fetchVal.php");
             }
         }
         
@@ -30,7 +30,7 @@ if (date('ha') == '09am') {
                 $date=date('d-m-Y');   //format dd-mm--yy
                 $id=2;
                 // update status
-                include("fetchVal.php");
+                include_once("fetchVal.php");
                 $id=$id-1;
                 include("update_complete.php");
                 include("insertValHistory.php");
@@ -47,7 +47,7 @@ if (date('ha') == '09am') {
                 $end_time='09:30am';
                 $date=date('d-m-Y');   //format dd-mm--yy
                 $id=3;
-                include("fetchVal.php");
+                include_once("fetchVal.php");
                 $id=$id-1;
                 include("update_complete.php");
                 include("insertValHistory.php");
@@ -62,7 +62,7 @@ if (date('ha') == '09am') {
                 $end_time='09:45am';
                 $date=date('d-m-Y');   //format dd-mm--yy
                 $id=4;
-                include("fetchVal.php");
+                include_once("fetchVal.php");
                 $id=$id-1;
                 include("update_complete.php");
                 include("insertValHistory.php");
@@ -82,7 +82,7 @@ if (date('ha') == '10am') {
                 $end_time='09:59am';
                 $date=date('d-m-Y');   //format dd-mm--yy
                 $id=5;
-                include("fetchVal.php");
+                include_once("fetchVal.php");
                 $id=$id-1;
                 include("update_complete.php");
                 include("insertValHistory.php");
@@ -97,7 +97,7 @@ if (date('ha') == '10am') {
                 $end_time='10:15am';
                 $date=date('d-m-Y');   //format dd-mm--yy
                 $id=6;
-                include("fetchVal.php");
+                include_once("fetchVal.php");
                 $id=$id-1;
                 include("update_complete.php");
                 include("insertValHistory.php");
@@ -112,7 +112,7 @@ if (date('ha') == '10am') {
                 $end_time='10:30am';
                 $date=date('d-m-Y');   //format dd-mm--yy
                 $id=7;
-                include("fetchVal.php");
+                include_once("fetchVal.php");
                 $id=$id-1;
                 include("update_complete.php");
                 include("insertValHistory.php");
@@ -127,7 +127,7 @@ if (date('ha') == '10am') {
                 $end_time='10:45am';
                 $date=date('d-m-Y');   //format dd-mm--yy
                 $id=8;
-                include("fetchVal.php");
+                include_once("fetchVal.php");
                 $id=$id-1;
                 include("update_complete.php");
                 include("insertValHistory.php");
@@ -147,7 +147,7 @@ if (date('ha') == '11am') {
                 $end_time='11:59am';
                 $date=date('d-m-Y');   //format dd-mm--yy
                 $id=9;
-                include("fetchVal.php");
+                include_once("fetchVal.php");
                 $id=$id-1;
                 include("update_complete.php");
                 include("insertValHistory.php");
@@ -162,7 +162,7 @@ if (date('ha') == '11am') {
                 $end_time='11:15am';
                 $date=date('d-m-Y');   //format dd-mm--yy
                 $id=10;
-                include("fetchVal.php");
+                include_once("fetchVal.php");
                 $id=$id-1;
                 include("update_complete.php");
                 include("insertValHistory.php");
@@ -177,7 +177,7 @@ if (date('ha') == '11am') {
                 $end_time='11:30am';
                 $date=date('d-m-Y');   //format dd-mm--yy
                 $id=11;
-                include("fetchVal.php");
+                include_once("fetchVal.php");
                 $id=$id-1;
                 include("update_complete.php");
                 include("insertValHistory.php");
@@ -192,7 +192,7 @@ if (date('ha') == '11am') {
                 $end_time='11:45am';
                 $date=date('d-m-Y');   //format dd-mm--yy
                 $id=12;
-                include("fetchVal.php");
+                include_once("fetchVal.php");
                 $id=$id-1;
                 include("update_complete.php");
                 include("insertValHistory.php");
@@ -212,7 +212,7 @@ if (date('ha') == '12pm') {
                 $end_time='11:59am';
                 $date=date('d-m-Y');   //format dd-mm--yy
                 $id=13;
-                include("fetchVal.php");
+                include_once("fetchVal.php");
                 $id=$id-1;
                 include("update_complete.php");
                 include("insertValHistory.php");
@@ -227,7 +227,7 @@ if (date('ha') == '12pm') {
                 $end_time='12:15pm';
                 $date=date('d-m-Y');   //format dd-mm--yy
                 $id=14;
-                include("fetchVal.php");
+                include_once("fetchVal.php");
                 $id=$id-1;
                 include("update_complete.php");
                 include("insertValHistory.php");
@@ -242,7 +242,7 @@ if (date('ha') == '12pm') {
                 $end_time='12:30pm';
                 $date=date('d-m-Y');   //format dd-mm--yy
                 $id=15;
-                include("fetchVal.php");
+                include_once("fetchVal.php");
                 $id=$id-1;
                 include("update_complete.php");
                 include("insertValHistory.php");
@@ -257,7 +257,7 @@ if (date('ha') == '12pm') {
                 $end_time='12:45pm';
                 $date=date('d-m-Y');   //format dd-mm--yy
                 $id=16;
-                include("fetchVal.php");
+                include_once("fetchVal.php");
                 $id=$id-1;
                 include("update_complete.php");
                 include("insertValHistory.php");
@@ -277,7 +277,7 @@ if (date('ha') == '01pm') {
                 $end_time='12:59pm';
                 $date=date('d-m-Y');   //format dd-mm--yy
                 $id=17;
-                include("fetchVal.php");
+                include_once("fetchVal.php");
                 $id=$id-1;
                 include("update_complete.php");
                 include("insertValHistory.php");
@@ -292,7 +292,7 @@ if (date('ha') == '01pm') {
                 $end_time='01:15pm';
                 $date=date('d-m-Y');   //format dd-mm--yy
                 $id=18;
-                include("fetchVal.php");
+                include_once("fetchVal.php");
                 $id=$id-1;
                 include("update_complete.php");
                 include("insertValHistory.php");
@@ -307,7 +307,7 @@ if (date('ha') == '01pm') {
                 $end_time='01:30pm';
                 $date=date('d-m-Y');   //format dd-mm--yy
                 $id=19;
-                include("fetchVal.php");
+                include_once("fetchVal.php");
                 $id=$id-1;
                 include("update_complete.php");
                 include("insertValHistory.php");
@@ -322,7 +322,7 @@ if (date('ha') == '01pm') {
                 $end_time='01:45pm';
                 $date=date('d-m-Y');   //format dd-mm--yy
                 $id=20;
-                include("fetchVal.php");
+                include_once("fetchVal.php");
                 $id=$id-1;
                 include("update_complete.php");
                 include("insertValHistory.php");
@@ -342,7 +342,7 @@ if (date('ha') == '02pm') {
                 $end_time='01:59pm';
                 $date=date('d-m-Y');   //format dd-mm--yy
                 $id=21;
-                include("fetchVal.php");
+                include_once("fetchVal.php");
                 $id=$id-1;
                 include("update_complete.php");
                 include("insertValHistory.php");
@@ -357,7 +357,7 @@ if (date('ha') == '02pm') {
                 $end_time='02:15pm';
                 $date=date('d-m-Y');   //format dd-mm--yy
                 $id=22;
-                include("fetchVal.php");
+                include_once("fetchVal.php");
                 $id=$id-1;
                 include("update_complete.php");
                 include("insertValHistory.php");
@@ -372,7 +372,7 @@ if (date('ha') == '02pm') {
                 $end_time='02:30am';
                 $date=date('d-m-Y');   //format dd-mm--yy
                 $id=23;
-                include("fetchVal.php");
+                include_once("fetchVal.php");
                 $id=$id-1;
                 include("update_complete.php");
                 include("insertValHistory.php");
@@ -387,7 +387,7 @@ if (date('ha') == '02pm') {
                 $end_time='02:45pm';
                 $date=date('d-m-Y');   //format dd-mm--yy
                 $id=24;
-                include("fetchVal.php");
+                include_once("fetchVal.php");
                 $id=$id-1;
                 include("update_complete.php");
                 include("insertValHistory.php");
@@ -407,7 +407,7 @@ if (date('ha') == '03pm') {
                 $end_time='02:59pm';
                 $date=date('d-m-Y');   //format dd-mm--yy
                 $id=25;
-                include("fetchVal.php");
+                include_once("fetchVal.php");
                 $id=$id-1;
                 include("update_complete.php");
                 include("insertValHistory.php");
@@ -422,7 +422,7 @@ if (date('ha') == '03pm') {
                 $end_time='03:15pm';
                 $date=date('d-m-Y');   //format dd-mm--yy
                 $id=26;
-                include("fetchVal.php");
+                include_once("fetchVal.php");
                 $id=$id-1;
                 include("update_complete.php");
                 include("insertValHistory.php");
@@ -437,7 +437,7 @@ if (date('ha') == '03pm') {
                 $end_time='03:30pm';
                 $date=date('d-m-Y');   //format dd-mm--yy
                 $id=27;
-                include("fetchVal.php");
+                include_once("fetchVal.php");
                 $id=$id-1;
                 include("update_complete.php");
                 include("insertValHistory.php");
@@ -452,7 +452,7 @@ if (date('ha') == '03pm') {
                 $end_time='03:45pm';
                 $date=date('d-m-Y');   //format dd-mm--yy
                 $id=28;
-                include("fetchVal.php");
+                include_once("fetchVal.php");
                 $id=$id-1;
                 include("update_complete.php");
                 include("insertValHistory.php");
@@ -472,7 +472,7 @@ if (date('ha') == '04pm') {
                 $end_time='03:59pm';
                 $date=date('d-m-Y');   //format dd-mm--yy
                 $id=29;
-                include("fetchVal.php");
+                include_once("fetchVal.php");
                 $id=$id-1;
                 include("update_complete.php");
                 include("insertValHistory.php");
@@ -487,7 +487,7 @@ if (date('ha') == '04pm') {
                 $end_time='04:15pm';
                 $date=date('d-m-Y');   //format dd-mm--yy
                 $id=30;
-                include("fetchVal.php");
+                include_once("fetchVal.php");
                 $id=$id-1;
                 include("update_complete.php");
                 include("insertValHistory.php");
@@ -502,7 +502,7 @@ if (date('ha') == '04pm') {
                 $end_time='04:30pm';
                 $date=date('d-m-Y');   //format dd-mm--yy
                 $id=31;
-                include("fetchVal.php");
+                include_once("fetchVal.php");
                 $id=$id-1;
                 include("update_complete.php");
                 include("insertValHistory.php");
@@ -517,7 +517,7 @@ if (date('ha') == '04pm') {
                 $end_time='04:45pm';
                 $date=date('d-m-Y');   //format dd-mm--yy
                 $id=32;
-                include("fetchVal.php");
+                include_once("fetchVal.php");
                 $id=$id-1;
                 include("update_complete.php");
                 include("insertValHistory.php");
@@ -537,7 +537,7 @@ if (date('ha') == '05pm') {
                 $end_time='04:59pm';
                 $date=date('d-m-Y');   //format dd-mm--yy
                 $id=33;
-                include("fetchVal.php");
+                include_once("fetchVal.php");
                 $id=$id-1;
                 include("update_complete.php");
                 include("insertValHistory.php");
@@ -552,7 +552,7 @@ if (date('ha') == '05pm') {
                 $end_time='05:15pm';
                 $date=date('d-m-Y');   //format dd-mm--yy
                 $id=34;
-                include("fetchVal.php");
+                include_once("fetchVal.php");
                 $id=$id-1;
                 include("update_complete.php");
                 include("insertValHistory.php");
@@ -567,7 +567,7 @@ if (date('ha') == '05pm') {
                 $end_time='05:30pm';
                 $date=date('d-m-Y');   //format dd-mm--yy
                 $id=35;
-                include("fetchVal.php");
+                include_once("fetchVal.php");
                 $id=$id-1;
                 include("update_complete.php");
                 include("insertValHistory.php");
@@ -582,7 +582,7 @@ if (date('ha') == '05pm') {
                 $end_time='05:45pm';
                 $date=date('d-m-Y');   //format dd-mm--yy
                 $id=36;
-                include("fetchVal.php");
+                include_once("fetchVal.php");
                 $id=$id-1;
                 include("update_complete.php");
                 include("insertValHistory.php");
@@ -602,7 +602,7 @@ if (date('ha') == '06pm') {
                 $end_time='05:59pm';
                 $date=date('d-m-Y');   //format dd-mm--yy
                 $id=37;
-                include("fetchVal.php");
+                include_once("fetchVal.php");
                 $id=$id-1;
                 include("update_complete.php");
                 include("insertValHistory.php");
@@ -617,7 +617,7 @@ if (date('ha') == '06pm') {
                 $end_time='06:15pm';
                 $date=date('d-m-Y');   //format dd-mm--yy
                 $id=38;
-                include("fetchVal.php");
+                include_once("fetchVal.php");
                 $id=$id-1;
                 include("update_complete.php");
                 include("insertValHistory.php");
@@ -632,7 +632,7 @@ if (date('ha') == '06pm') {
                 $end_time='06:30pm';
                 $date=date('d-m-Y');   //format dd-mm--yy
                 $id=39;
-                include("fetchVal.php");
+                include_once("fetchVal.php");
                 $id=$id-1;
                 include("update_complete.php");
                 include("insertValHistory.php");
@@ -647,7 +647,7 @@ if (date('ha') == '06pm') {
                 $end_time='06:45pm';
                 $date=date('d-m-Y');   //format dd-mm--yy
                 $id=40;
-                include("fetchVal.php");
+                include_once("fetchVal.php");
                 $id=$id-1;
                 include("update_complete.php");
                 include("insertValHistory.php");
@@ -667,7 +667,7 @@ if (date('ha') == '07pm') {
                 $end_time='06:59pm';
                 $date=date('d-m-Y');   //format dd-mm--yy
                 $id=41;
-                include("fetchVal.php");
+                include_once("fetchVal.php");
                 $id=$id-1;
                 include("update_complete.php");
                 include("insertValHistory.php");
@@ -682,7 +682,7 @@ if (date('ha') == '07pm') {
                 $end_time='07:15pm';
                 $date=date('d-m-Y');   //format dd-mm--yy
                 $id=42;
-                include("fetchVal.php");
+                include_once("fetchVal.php");
                 $id=$id-1;
                 include("update_complete.php");
                 include("insertValHistory.php");
@@ -697,7 +697,7 @@ if (date('ha') == '07pm') {
                 $end_time='07:30pm';
                 $date=date('d-m-Y');   //format dd-mm--yy
                 $id=43;
-                include("fetchVal.php");
+                include_once("fetchVal.php");
                 $id=$id-1;
                 include("update_complete.php");
                 include("insertValHistory.php");
@@ -712,7 +712,7 @@ if (date('ha') == '07pm') {
                 $end_time='07:45pm';
                 $date=date('d-m-Y');   //format dd-mm--yy
                 $id=44;
-                include("fetchVal.php");
+                include_once("fetchVal.php");
                 $id=$id-1;
                 include("update_complete.php");
                 include("insertValHistory.php");
@@ -732,7 +732,7 @@ if (date('ha') == '08pm') {
                 $end_time='07:59pm';
                 $date=date('d-m-Y');   //format dd-mm--yy
                 $id=45;
-                include("fetchVal.php");
+                include_once("fetchVal.php");
                 $id=$id-1;
                 include("update_complete.php");
                 include("insertValHistory.php");
@@ -747,7 +747,7 @@ if (date('ha') == '08pm') {
                 $end_time='08:15pm';
                 $date=date('d-m-Y');   //format dd-mm--yy
                 $id=46;
-                include("fetchVal.php");
+                include_once("fetchVal.php");
                 $id=$id-1;
                 include("update_complete.php");
                 include("insertValHistory.php");
@@ -762,7 +762,7 @@ if (date('ha') == '08pm') {
                 $end_time='08:30pm';
                 $date=date('d-m-Y');   //format dd-mm--yy
                 $id=47;
-                include("fetchVal.php");
+                include_once("fetchVal.php");
                 $id=$id-1;
                 include("update_complete.php");
                 include("insertValHistory.php");
@@ -777,7 +777,7 @@ if (date('ha') == '08pm') {
                 $end_time='08:45pm';
                 $date=date('d-m-Y');   //format dd-mm--yy
                 $id=48;
-                include("fetchVal.php");
+                include_once("fetchVal.php");
                 
                 $id=$id-1;
                 include("update_complete.php");

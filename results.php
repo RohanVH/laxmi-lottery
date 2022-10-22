@@ -36,13 +36,13 @@
                         echo '<td>'.$bb = $row['BB'].'</td>';
                         echo '<td>'.$cc = $row['CC'].'</td>';
                         echo '<td>'.$status = $row['status'].'</td></tr>';
-                        }
+                        }}
                     ?>
                         
                     </table>
                 <?php
                     
-                    }
+                    
                 ?>
                 </div>
                 </div>
@@ -77,13 +77,13 @@
                                 echo '<td>'.$bb = $row['b'].'</td>';
                                 echo '<td>'.$cc = $row['c'].'</td>';
                                 echo '<td>'.$status = $row['status'].'</td></tr>';
-                                }
+                                }}
                             ?>
                                 
                             </table>
                         <?php
                             
-                            }
+                            
                         ?>
                     </div>
                 </div>

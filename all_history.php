@@ -11,7 +11,6 @@
 		<th>A</th>
 		<th>B</th>
 		<th>C</th>
-		<th>status</th>
 			<th style="display:flex;justify-content:center;">Options</th>
 		</tr>
 	</thead>
@@ -23,7 +22,7 @@
 				$id = $row->id;
 				$date= $row->date;
 				$start_time= $row->start_time;
-				$end_time= $row->end_   time;
+				$end_time= $row->end_time;
 				$AA = $row->AA;
 				$BB = $row->BB;
 				$CC = $row->CC;
@@ -42,7 +41,6 @@
                 <td><?php echo $A; ?></td>
                 <td><?php echo $B; ?></td>
                 <td><?php echo $C; ?></td>
-             	</td>
              	<td style="display:flex;justify-content:center;">
              		  <a class="btn btn-xs btn-danger" onclick="return confirm('Are you sure you want to delete? ')" href="deleteproject.php?id=<?php echo $row->id; ?>"><i class="fa fa-trash"></i></a>
              	</td>
