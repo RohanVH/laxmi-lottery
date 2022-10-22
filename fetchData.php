@@ -1,9 +1,3 @@
-<!-- /**
- * Author:    Rohan
- * Created:   21.10.2022
- * 
- * (c) Copyright by Dword Core.
- **/ -->
 <?php
 include('config.php');
 
@@ -797,44 +791,7 @@ if (date('ha') == '08pm') {
     }
 }
 if (date('ha')== '09pm' || date('ha') == '10pm'|| date('ha') =='11pm' || date('ha') == '12am'|| date('ha') =='01am' || date('ha') =='02am' || date('ha') =='03am' || date('ha') =='04am' || date('ha') =='05am' || date('ha') =='06am' || date('ha') =='07am' || date('ha') == '08am') {
-    echo "<br>
-    <div class='container bg-secondary'>
-        <br>
-        <div class='container d-flex justify-content-center'>
-            
-            <table class='table  table-hover text-center h4 border border-dark border-5'>
-                <tr style='background-color:black;color:white;' class='my-5 '>
-                    <th>AA</th>
-                    <th>BB</th>
-                    <th>CC</th>
-                </tr>
-                <tr class='my-4 bg-light'>
-                    <th>-</th>
-                    <th>-</th>
-                    <th>-</th>
-                </tr>
-            </table>
-        </div>
-        <div class='container d-flex justify-content-center'>
-        <table class='table table-hover text-center h4 border border-dark border-5'>
-        <tr style='background-color:black;color:white'>
-                    <th>A</th>
-                    <th>B</th>
-                    <th>C</th>
-        </tr>
-        <tr class='my-3 bg-light'>
-                    <th>
-                        -
-                    </th>
-                    <th>
-                        -
-                    </th>
-                    <th>
-                        -
-                    </th>
-        </tr></table>
-        </div>
-        </div><br>";
+    
         include("results.php");
 }
 ?>
