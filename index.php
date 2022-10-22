@@ -924,7 +924,6 @@
         </div>
         <div class="footer-bottom text-center">
             <div class="container">
-                <p>Copyright © 2022 Dword Core. All rights reserved.</p>
             </div>
         </div>
     </footer>

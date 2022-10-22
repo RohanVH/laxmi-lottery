@@ -11,7 +11,7 @@
                 <div class="collapse multi-collapse" id="multiCollapseExample1">
                 <div class="card card-body">
                 <?php
-                $get_status="SELECT `time`,`AA`,`BB`,`CC`,`status` from randdata where `status`='completed'";
+                $get_status="SELECT `time`,`AA`,`BB`,`CC` from randdata where `status`='completed'";
                 $query=mysqli_query($connectdb,$get_status);
                 $rows=mysqli_fetch_row($query);
                 ?>
@@ -22,7 +22,7 @@
                             <th>AA</th>
                             <th>BB</th>
                             <th>CC</th>
-                            <th>status</th>
+                            <!-- <th>status</th> -->
                         </tr>
                 <?php
                     if ($rows > 0) 
@@ -35,7 +35,7 @@
                         echo '<td>'.$aa = $row['AA'].'</td>';
                         echo '<td>'.$bb = $row['BB'].'</td>';
                         echo '<td>'.$cc = $row['CC'].'</td>';
-                        echo '<td>'.$status = $row['status'].'</td></tr>';
+                        // echo '<td>'.$status = $row['status'].'</td></tr>';
                         }}
                     ?>
                         
@@ -52,7 +52,7 @@
                 <div class="collapse multi-collapse" id="multiCollapseExample2">
                     <div class="card card-body">
                     <?php
-                        $get_status="SELECT `time`,`a`,`b`,`c`,`status` from randdata where `status`='completed'";
+                        $get_status="SELECT `time`,`a`,`b`,`c` from randdata where `status`='completed'";
                         $query=mysqli_query($connectdb,$get_status);
                         $rows=mysqli_fetch_row($query);
                         ?>
@@ -63,7 +63,7 @@
                                     <th>AA</th>
                                     <th>BB</th>
                                     <th>CC</th>
-                                    <th>status</th>
+                                    <!-- <th>status</th> -->
                                 </tr>
                         <?php
                             if ($rows > 0) 
@@ -76,7 +76,7 @@
                                 echo '<td>'.$aa = $row['a'].'</td>';
                                 echo '<td>'.$bb = $row['b'].'</td>';
                                 echo '<td>'.$cc = $row['c'].'</td>';
-                                echo '<td>'.$status = $row['status'].'</td></tr>';
+                                // echo '<td>'.$status = $row['status'].'</td></tr>';
                                 }}
                             ?>
                                 
