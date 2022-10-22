@@ -11,13 +11,9 @@
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
         <li class="active"><a href="dashboard.php"><i class="fa fa-home"></i>  Dashboard</a></li>
-        <li class="dropdown">
-          <a class="dropdown-toggle" data-toggle="dropdown" href="#"><i class="fa fa-cog"></i> Single/Jodi<span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="single.php">Single</a></li>
-            <li><a href="jodi.php">Jodi</a></li>
-          </ul>
-        </li>
+        <li class="active"><a href="sj.php"><i class=""></i> Single/Jodi</a></li>
+        <li class="active"><a href="history.php"><i class=""></i> History</a></li>
+        
         <li><a href="editTable.php"><i class="fa fa-book"></i>  Edit Table</a></li>
         <li><a href="generate.php"><i class="fa fa-plus"></i>  Generate</a></li>
         <li><a href="update.php"><i class="fa fa-refresh"></i>  Update</a></li>

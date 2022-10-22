@@ -122,32 +122,7 @@ else{
            
         </table>
     </div>
-    <div class="container">
-        <label for="" class="h2 text-start">Results:</label><br>
-        <p>
-            <a class="btn btn-danger" data-bs-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Jodi</a>
-            <button class="btn btn-danger" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">Single</button>
-            <button class="btn btn-danger" type="button" data-bs-toggle="collapse" data-bs-target=".multi-collapse" aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2">Both</button>
-        </p>
-        <div class="row">
-            <!-- jodi -->
-            <div class="col">
-                <div class="collapse multi-collapse" id="multiCollapseExample1">
-                <div class="card card-body">
-                    jodi.
-                </div>
-                </div>
-            </div>
-            <!-- single -->
-            <div class="col">
-                <div class="collapse multi-collapse" id="multiCollapseExample2">
-                    <div class="card card-body">
-                        Single.
-                    </div>
-                </div>
-            </div>
-        </div>
-        
-    </div>
+
+    <?php include("results.php"); ?>
 </div>
 <br>
