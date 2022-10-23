@@ -10,8 +10,9 @@ if (date('ha') == '09am') {
             if(date('i')== date($number)){
                 
                 $id=1;
-                include_once('create_historyBlank.php');
+                
                 include_once("fetchVal.php");
+                header("refresh: 900");
                 include_once("results.php");
             }
         }
@@ -26,6 +27,7 @@ if (date('ha') == '09am') {
                 $id=2;
                 // update status
                 include_once("fetchVal.php");
+                header("refresh: 900");
                 include_once("results.php");
                 $id=$id-1;
                 include_once("update_complete.php");
@@ -44,6 +46,8 @@ if (date('ha') == '09am') {
                 $date=date('d-m-Y');   //format dd-mm--yy
                 $id=3;
                 include_once("fetchVal.php");
+                header("refresh: 900");
+                
                 include_once("results.php");
                 $id=$id-1;
                 include_once("update_complete.php");
@@ -60,6 +64,7 @@ if (date('ha') == '09am') {
                 $date=date('d-m-Y');   //format dd-mm--yy
                 $id=4;
                 include_once("fetchVal.php");
+                header("refresh: 900");
                 include_once("results.php");
                 $id=$id-1;
                 include_once("update_complete.php");
@@ -81,6 +86,7 @@ if (date('ha') == '10am') {
                 $date=date('d-m-Y');   //format dd-mm--yy
                 $id=5;
                 include_once("fetchVal.php");
+                header("refresh: 900");
                 include_once("results.php");
                 $id=$id-1;
                 include_once("update_complete.php");
@@ -97,6 +103,7 @@ if (date('ha') == '10am') {
                 $date=date('d-m-Y');   //format dd-mm--yy
                 $id=6;
                 include_once("fetchVal.php");
+                header("refresh: 900");
                 include_once("results.php");
                 $id=$id-1;
                 include_once("update_complete.php");
@@ -113,6 +120,7 @@ if (date('ha') == '10am') {
                 $date=date('d-m-Y');   //format dd-mm--yy
                 $id=7;
                 include_once("fetchVal.php");
+                header("refresh: 900");
                 include_once("results.php");
                 $id=$id-1;
                 include_once("update_complete.php");
@@ -129,6 +137,7 @@ if (date('ha') == '10am') {
                 $date=date('d-m-Y');   //format dd-mm--yy
                 $id=8;
                 include_once("fetchVal.php");
+                header("refresh: 900");
                 include_once("results.php");
                 $id=$id-1;
                 include_once("update_complete.php");
@@ -150,6 +159,7 @@ if (date('ha') == '11am') {
                 $date=date('d-m-Y');   //format dd-mm--yy
                 $id=9;
                 include_once("fetchVal.php");
+                header("refresh: 900");
                 include_once("results.php");
                 $id=$id-1;
                 include_once("update_complete.php");
@@ -166,6 +176,7 @@ if (date('ha') == '11am') {
                 $date=date('d-m-Y');   //format dd-mm--yy
                 $id=10;
                 include_once("fetchVal.php");
+                header("refresh: 900");
                 include_once("results.php");
                 $id=$id-1;
                 include_once("update_complete.php");
@@ -182,6 +193,7 @@ if (date('ha') == '11am') {
                 $date=date('d-m-Y');   //format dd-mm--yy
                 $id=11;
                 include_once("fetchVal.php");
+                header("refresh: 900");
                 include_once("results.php");
                 $id=$id-1;
                 include_once("update_complete.php");
@@ -198,6 +210,7 @@ if (date('ha') == '11am') {
                 $date=date('d-m-Y');   //format dd-mm--yy
                 $id=12;
                 include_once("fetchVal.php");
+                header("refresh: 900");
                 include_once("results.php");
                 $id=$id-1;
                 include_once("update_complete.php");
@@ -219,6 +232,7 @@ if (date('ha') == '12pm') {
                 $date=date('d-m-Y');   //format dd-mm--yy
                 $id=13;
                 include_once("fetchVal.php");
+                header("refresh: 900");
                 include_once("results.php");
                 $id=$id-1;
                 include_once("update_complete.php");
@@ -235,6 +249,7 @@ if (date('ha') == '12pm') {
                 $date=date('d-m-Y');   //format dd-mm--yy
                 $id=14;
                 include_once("fetchVal.php");
+                header("refresh: 900");
                 include_once("results.php");
                 $id=$id-1;
                 include_once("update_complete.php");
@@ -251,6 +266,7 @@ if (date('ha') == '12pm') {
                 $date=date('d-m-Y');   //format dd-mm--yy
                 $id=15;
                 include_once("fetchVal.php");
+                header("refresh: 900");
                 include_once("results.php");
                 $id=$id-1;
                 include_once("update_complete.php");
@@ -267,6 +283,7 @@ if (date('ha') == '12pm') {
                 $date=date('d-m-Y');   //format dd-mm--yy
                 $id=16;
                 include_once("fetchVal.php");
+                header("refresh: 900");
                 include_once("results.php");
                 $id=$id-1;
                 include_once("update_complete.php");
@@ -288,6 +305,7 @@ if (date('ha') == '01pm') {
                 $date=date('d-m-Y');   //format dd-mm--yy
                 $id=17;
                 include_once("fetchVal.php");
+                header("refresh: 900");
                 include_once("results.php");
                 $id=$id-1;
                 include_once("update_complete.php");
@@ -304,6 +322,7 @@ if (date('ha') == '01pm') {
                 $date=date('d-m-Y');   //format dd-mm--yy
                 $id=18;
                 include_once("fetchVal.php");
+                header("refresh: 900");
                 include_once("results.php");
                 $id=$id-1;
                 include_once("update_complete.php");
@@ -320,6 +339,7 @@ if (date('ha') == '01pm') {
                 $date=date('d-m-Y');   //format dd-mm--yy
                 $id=19;
                 include_once("fetchVal.php");
+                header("refresh: 900");
                 include_once("results.php");
                 $id=$id-1;
                 include_once("update_complete.php");
@@ -336,6 +356,7 @@ if (date('ha') == '01pm') {
                 $date=date('d-m-Y');   //format dd-mm--yy
                 $id=20;
                 include_once("fetchVal.php");
+                header("refresh: 900");
                 include_once("results.php");
                 $id=$id-1;
                 include_once("update_complete.php");
@@ -357,6 +378,7 @@ if (date('ha') == '02pm') {
                 $date=date('d-m-Y');   //format dd-mm--yy
                 $id=21;
                 include_once("fetchVal.php");
+                header("refresh: 900");
                 include_once("results.php");
                 $id=$id-1;
                 include_once("update_complete.php");
@@ -373,6 +395,7 @@ if (date('ha') == '02pm') {
                 $date=date('d-m-Y');   //format dd-mm--yy
                 $id=22;
                 include_once("fetchVal.php");
+                header("refresh: 900");
                 include_once("results.php");
                 $id=$id-1;
                 include_once("update_complete.php");
@@ -389,6 +412,7 @@ if (date('ha') == '02pm') {
                 $date=date('d-m-Y');   //format dd-mm--yy
                 $id=23;
                 include_once("fetchVal.php");
+                header("refresh: 900");
                 include_once("results.php");
                 $id=$id-1;
                 include_once("update_complete.php");
@@ -405,6 +429,7 @@ if (date('ha') == '02pm') {
                 $date=date('d-m-Y');   //format dd-mm--yy
                 $id=24;
                 include_once("fetchVal.php");
+                header("refresh: 900");
                 include_once("results.php");
                 $id=$id-1;
                 include_once("update_complete.php");
@@ -426,6 +451,7 @@ if (date('ha') == '03pm') {
                 $date=date('d-m-Y');   //format dd-mm--yy
                 $id=25;
                 include_once("fetchVal.php");
+                header("refresh: 900");
                 include_once("results.php");
                 $id=$id-1;
                 include_once("update_complete.php");
@@ -442,6 +468,7 @@ if (date('ha') == '03pm') {
                 $date=date('d-m-Y');   //format dd-mm--yy
                 $id=26;
                 include_once("fetchVal.php");
+                header("refresh: 900");
                 include_once("results.php");
                 $id=$id-1;
                 include_once("update_complete.php");
@@ -458,6 +485,7 @@ if (date('ha') == '03pm') {
                 $date=date('d-m-Y');   //format dd-mm--yy
                 $id=27;
                 include_once("fetchVal.php");
+                header("refresh: 900");
                 include_once("results.php");
                 $id=$id-1;
                 include_once("update_complete.php");
@@ -474,6 +502,7 @@ if (date('ha') == '03pm') {
                 $date=date('d-m-Y');   //format dd-mm--yy
                 $id=28;
                 include_once("fetchVal.php");
+                header("refresh: 900");
                 include_once("results.php");
                 $id=$id-1;
                 include_once("update_complete.php");
@@ -495,6 +524,7 @@ if (date('ha') == '04pm') {
                 $date=date('d-m-Y');   //format dd-mm--yy
                 $id=29;
                 include_once("fetchVal.php");
+                header("refresh: 900");
                 include_once("results.php");
                 $id=$id-1;
                 include_once("update_complete.php");
@@ -511,6 +541,7 @@ if (date('ha') == '04pm') {
                 $date=date('d-m-Y');   //format dd-mm--yy
                 $id=30;
                 include_once("fetchVal.php");
+                header("refresh: 900");
                 include_once("results.php");
                 $id=$id-1;
                 include_once("update_complete.php");
@@ -527,6 +558,7 @@ if (date('ha') == '04pm') {
                 $date=date('d-m-Y');   //format dd-mm--yy
                 $id=31;
                 include_once("fetchVal.php");
+                header("refresh: 900");
                 include_once("results.php");
                 $id=$id-1;
                 include_once("update_complete.php");
@@ -543,6 +575,7 @@ if (date('ha') == '04pm') {
                 $date=date('d-m-Y');   //format dd-mm--yy
                 $id=32;
                 include_once("fetchVal.php");
+                header("refresh: 900");
                 include_once("results.php");
                 $id=$id-1;
                 include_once("update_complete.php");
@@ -564,6 +597,7 @@ if (date('ha') == '05pm') {
                 $date=date('d-m-Y');   //format dd-mm--yy
                 $id=33;
                 include_once("fetchVal.php");
+                header("refresh: 900");
                 include_once("results.php");
                 $id=$id-1;
                 include_once("update_complete.php");
@@ -580,6 +614,7 @@ if (date('ha') == '05pm') {
                 $date=date('d-m-Y');   //format dd-mm--yy
                 $id=34;
                 include_once("fetchVal.php");
+                header("refresh: 900");
                 include_once("results.php");
                 $id=$id-1;
                 include_once("update_complete.php");
@@ -596,6 +631,7 @@ if (date('ha') == '05pm') {
                 $date=date('d-m-Y');   //format dd-mm--yy
                 $id=35;
                 include_once("fetchVal.php");
+                header("refresh: 900");
                 include_once("results.php");
                 $id=$id-1;
                 include_once("update_complete.php");
@@ -612,6 +648,7 @@ if (date('ha') == '05pm') {
                 $date=date('d-m-Y');   //format dd-mm--yy
                 $id=36;
                 include_once("fetchVal.php");
+                header("refresh: 900");
                 include_once("results.php");
                 $id=$id-1;
                 include_once("update_complete.php");
@@ -633,6 +670,7 @@ if (date('ha') == '06pm') {
                 $date=date('d-m-Y');   //format dd-mm--yy
                 $id=37;
                 include_once("fetchVal.php");
+                header("refresh: 900");
                 include_once("results.php");
                 $id=$id-1;
                 include_once("update_complete.php");
@@ -649,6 +687,7 @@ if (date('ha') == '06pm') {
                 $date=date('d-m-Y');   //format dd-mm--yy
                 $id=38;
                 include_once("fetchVal.php");
+                header("refresh: 900");
                 include_once("results.php");
                 $id=$id-1;
                 include_once("update_complete.php");
@@ -665,6 +704,7 @@ if (date('ha') == '06pm') {
                 $date=date('d-m-Y');   //format dd-mm--yy
                 $id=39;
                 include_once("fetchVal.php");
+                header("refresh: 900");
                 include_once("results.php");
                 $id=$id-1;
                 include_once("update_complete.php");
@@ -681,6 +721,7 @@ if (date('ha') == '06pm') {
                 $date=date('d-m-Y');   //format dd-mm--yy
                 $id=40;
                 include_once("fetchVal.php");
+                header("refresh: 900");
                 include_once("results.php");
                 $id=$id-1;
                 include_once("update_complete.php");
@@ -702,6 +743,7 @@ if (date('ha') == '07pm') {
                 $date=date('d-m-Y');   //format dd-mm--yy
                 $id=41;
                 include_once("fetchVal.php");
+                header("refresh: 900");
                 include_once("results.php");
                 $id=$id-1;
                 include_once("update_complete.php");
@@ -718,6 +760,7 @@ if (date('ha') == '07pm') {
                 $date=date('d-m-Y');   //format dd-mm--yy
                 $id=42;
                 include_once("fetchVal.php");
+                header("refresh: 900");
                 include_once("results.php");
                 $id=$id-1;
                 include_once("update_complete.php");
@@ -734,6 +777,7 @@ if (date('ha') == '07pm') {
                 $date=date('d-m-Y');   //format dd-mm--yy
                 $id=43;
                 include_once("fetchVal.php");
+                header("refresh: 900");
                 include_once("results.php");
                 $id=$id-1;
                 include_once("update_complete.php");
@@ -750,6 +794,7 @@ if (date('ha') == '07pm') {
                 $date=date('d-m-Y');   //format dd-mm--yy
                 $id=44;
                 include_once("fetchVal.php");
+                header("refresh: 900");
                 include_once("results.php");
                 $id=$id-1;
                 include_once("update_complete.php");
@@ -771,6 +816,7 @@ if (date('ha') == '08pm') {
                 $date=date('d-m-Y');   //format dd-mm--yy
                 $id=45;
                 include_once("fetchVal.php");
+                header("refresh: 900");
                 include_once("results.php");
                 $id=$id-1;
                 include_once("update_complete.php");
@@ -787,6 +833,7 @@ if (date('ha') == '08pm') {
                 $date=date('d-m-Y');   //format dd-mm--yy
                 $id=46;
                 include_once("fetchVal.php");
+                header("refresh: 900");
                 include_once("results.php");
                 $id=$id-1;
                 include_once("update_complete.php");
@@ -803,6 +850,7 @@ if (date('ha') == '08pm') {
                 $date=date('d-m-Y');   //format dd-mm--yy
                 $id=47;
                 include_once("fetchVal.php");
+                header("refresh: 900");
                 include_once("results.php");
                 $id=$id-1;
                 include_once("update_complete.php");
@@ -819,6 +867,7 @@ if (date('ha') == '08pm') {
                 $date=date('d-m-Y');   //format dd-mm--yy
                 $id=48;
                 include_once("fetchVal.php");
+                header("refresh: 900");
                 include_once("results.php");
                 
                 $id=$id-1;
@@ -876,5 +925,6 @@ if(date('ha') =='12am' ||date('ha') =='01am' || date('ha') =='02am' || date('ha'
 if (date('ha')== '09pm' || date('ha') == '10pm'|| date('ha') =='11pm' || date('ha') < '12am'){
     
         include_once("results.php");
+        include_once('create_historyBlank.php');
 }
 ?>
