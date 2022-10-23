@@ -1,13 +1,5 @@
 <?php
-$number=1;
-while($number<49){
-        $insert_blank = "INSERT INTO history Values('','-','-','-','-','-','-','-','-','-')"; //insert blank values
-        $inserting = mysqli_query($connectdb, $insert_blank);
-        if ($inserting) {
-            echo '';
-    }
-    $number=$number+1;
-}
+
 $displayed_values = mysqli_query($connectdb, "SELECT AA,BB,CC,a,b,c FROM randdata WHERE id =$id");
 $row = mysqli_fetch_row($displayed_values);
 if($row){

@@ -8,10 +8,10 @@ if (date('ha') == '09am') {
         if(date('i') >=00 && date('i')<15){
             $number = strval($number);
             if(date('i')== date($number)){
-                
                 $id=1;
                 
                 include_once("fetchVal.php");
+                include_once('create_historyBlank.php');
                 echo '<script>
                         <!--
                         function timedRefresh(timeoutPeriod) {
@@ -1357,6 +1357,6 @@ if(date('ha') =='12am' ||date('ha') =='01am' || date('ha') =='02am' || date('ha'
 if (date('ha')== '09pm' || date('ha') == '10pm'|| date('ha') =='11pm' || date('ha') < '12am'){
     
         include_once("results.php");
-        include_once('create_historyBlank.php');
+        
 }
 ?>
