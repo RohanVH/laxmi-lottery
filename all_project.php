@@ -1,7 +1,8 @@
 <table class="table table-bordered table-hover project_table">
+<script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
 	<thead>
 		<tr style="color:white;background-color:black;">
-		<th>ID</th>
+		<th><span class="fas fa-sort">ID</span></th>
 		
 		<th>time</th>
 		<th>AA</th>
