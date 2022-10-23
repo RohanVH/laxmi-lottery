@@ -1,9 +1,4 @@
-<!-- /**
- * Author:    Rohan
- * Created:   21.10.2022
- * 
- * (c) Copyright by Dword Core.
- **/ -->
+
 <!doctype html>
 <html dir="ltr" lang="en-US" prefix="og: https://ogp.me/ns#" class="no-js">
 
