@@ -17,14 +17,13 @@ if (date('ha') == '09am') {
                 $id = 1;
                 include_once("update_complete.php");
                 // include_once("fetchVal.php");
-                // include_once('create_historyBlank.php');
                 echo '<script>
                         <!--
                         function timedRefresh(timeoutPeriod) {
                             setTimeout("location.reload(true);",timeoutPeriod);
                         }
 
-                        window.onload = timedRefresh(600000);
+                        window.onload = timedRefresh(300000);
 
                         //   -->
                         </script>';
@@ -36,9 +35,10 @@ if (date('ha') == '09am') {
         if (date('i') >= 15 && date('i') < 30) {
             $number = strval($number);
             if (date('i') == date($number)) {
+
                 $date = date('d-m-Y');   //format dd-mm--yy
-                include_once("update_complete.php");
                 $id = 2;
+                include_once("update_complete.php");
                 // update status
                 // include_once("fetchVal.php");
                 echo '<script>
@@ -47,7 +47,7 @@ if (date('ha') == '09am') {
                             setTimeout("location.reload(true);",timeoutPeriod);
                         }
 
-                        window.onload = timedRefresh(600000);
+                        window.onload = timedRefresh(300000);
 
                         //   -->
                         </script>';
@@ -61,8 +61,8 @@ if (date('ha') == '09am') {
             $number = strval($number);
             if (date('i') == date($number)) {
                 $date = date('d-m-Y');   //format dd-mm--yy
-                include_once("update_complete.php");
                 $id = 3;
+                include_once("update_complete.php");
                 // include_once("fetchVal.php");
                 echo '<script>
                         <!--
@@ -70,7 +70,7 @@ if (date('ha') == '09am') {
                             setTimeout("location.reload(true);",timeoutPeriod);
                         }
 
-                        window.onload = timedRefresh(600000);
+                        window.onload = timedRefresh(300000);
 
                         //   -->
                         </script>';
@@ -94,7 +94,7 @@ if (date('ha') == '09am') {
                             setTimeout("location.reload(true);",timeoutPeriod);
                         }
 
-                        window.onload = timedRefresh(600000);
+                        window.onload = timedRefresh(300000);
 
                         //   -->
                         </script>';
@@ -120,7 +120,7 @@ if (date('ha') == '10am') {
                             setTimeout("location.reload(true);",timeoutPeriod);
                         }
 
-                        window.onload = timedRefresh(600000);
+                        window.onload = timedRefresh(300000);
 
                         //   -->
                         </script>';
@@ -143,7 +143,7 @@ if (date('ha') == '10am') {
                             setTimeout("location.reload(true);",timeoutPeriod);
                         }
 
-                        window.onload = timedRefresh(600000);
+                        window.onload = timedRefresh(300000);
 
                         //   -->
                         </script>';
@@ -166,7 +166,7 @@ if (date('ha') == '10am') {
                             setTimeout("location.reload(true);",timeoutPeriod);
                         }
 
-                        window.onload = timedRefresh(600000);
+                        window.onload = timedRefresh(300000);
 
                         //   -->
                         </script>';
@@ -189,7 +189,7 @@ if (date('ha') == '10am') {
                             setTimeout("location.reload(true);",timeoutPeriod);
                         }
 
-                        window.onload = timedRefresh(600000);
+                        window.onload = timedRefresh(300000);
 
                         //   -->
                         </script>';
@@ -215,7 +215,7 @@ if (date('ha') == '11am') {
                             setTimeout("location.reload(true);",timeoutPeriod);
                         }
 
-                        window.onload = timedRefresh(600000);
+                        window.onload = timedRefresh(300000);
 
                         //   -->
                         </script>';
@@ -238,7 +238,7 @@ if (date('ha') == '11am') {
                             setTimeout("location.reload(true);",timeoutPeriod);
                         }
 
-                        window.onload = timedRefresh(600000);
+                        window.onload = timedRefresh(300000);
 
                         //   -->
                         </script>';
@@ -261,7 +261,7 @@ if (date('ha') == '11am') {
                             setTimeout("location.reload(true);",timeoutPeriod);
                         }
 
-                        window.onload = timedRefresh(600000);
+                        window.onload = timedRefresh(300000);
 
                         //   -->
                         </script>';
@@ -284,7 +284,7 @@ if (date('ha') == '11am') {
                             setTimeout("location.reload(true);",timeoutPeriod);
                         }
 
-                        window.onload = timedRefresh(600000);
+                        window.onload = timedRefresh(300000);
 
                         //   -->
                         </script>';
@@ -310,7 +310,7 @@ if (date('ha') == '12pm') {
                             setTimeout("location.reload(true);",timeoutPeriod);
                         }
 
-                        window.onload = timedRefresh(600000);
+                        window.onload = timedRefresh(300000);
 
                         //   -->
                         </script>';
@@ -333,7 +333,7 @@ if (date('ha') == '12pm') {
                             setTimeout("location.reload(true);",timeoutPeriod);
                         }
 
-                        window.onload = timedRefresh(600000);
+                        window.onload = timedRefresh(300000);
 
                         //   -->
                         </script>';
@@ -356,7 +356,7 @@ if (date('ha') == '12pm') {
                             setTimeout("location.reload(true);",timeoutPeriod);
                         }
 
-                        window.onload = timedRefresh(600000);
+                        window.onload = timedRefresh(300000);
 
                         //   -->
                         </script>';
@@ -379,7 +379,7 @@ if (date('ha') == '12pm') {
                             setTimeout("location.reload(true);",timeoutPeriod);
                         }
 
-                        window.onload = timedRefresh(600000);
+                        window.onload = timedRefresh(300000);
 
                         //   -->
                         </script>';
@@ -405,7 +405,7 @@ if (date('ha') == '01pm') {
                             setTimeout("location.reload(true);",timeoutPeriod);
                         }
 
-                        window.onload = timedRefresh(600000);
+                        window.onload = timedRefresh(300000);
 
                         //   -->
                         </script>';
@@ -428,7 +428,7 @@ if (date('ha') == '01pm') {
                             setTimeout("location.reload(true);",timeoutPeriod);
                         }
 
-                        window.onload = timedRefresh(600000);
+                        window.onload = timedRefresh(300000);
 
                         //   -->
                         </script>';
@@ -451,7 +451,7 @@ if (date('ha') == '01pm') {
                             setTimeout("location.reload(true);",timeoutPeriod);
                         }
 
-                        window.onload = timedRefresh(600000);
+                        window.onload = timedRefresh(300000);
 
                         //   -->
                         </script>';
@@ -474,7 +474,7 @@ if (date('ha') == '01pm') {
                             setTimeout("location.reload(true);",timeoutPeriod);
                         }
 
-                        window.onload = timedRefresh(600000);
+                        window.onload = timedRefresh(300000);
 
                         //   -->
                         </script>';
@@ -500,7 +500,7 @@ if (date('ha') == '02pm') {
                             setTimeout("location.reload(true);",timeoutPeriod);
                         }
 
-                        window.onload = timedRefresh(600000);
+                        window.onload = timedRefresh(300000);
 
                         //   -->
                         </script>';
@@ -523,7 +523,7 @@ if (date('ha') == '02pm') {
                             setTimeout("location.reload(true);",timeoutPeriod);
                         }
 
-                        window.onload = timedRefresh(600000);
+                        window.onload = timedRefresh(300000);
 
                         //   -->
                         </script>';
@@ -546,7 +546,7 @@ if (date('ha') == '02pm') {
                             setTimeout("location.reload(true);",timeoutPeriod);
                         }
 
-                        window.onload = timedRefresh(600000);
+                        window.onload = timedRefresh(300000);
 
                         //   -->
                         </script>';
@@ -569,7 +569,7 @@ if (date('ha') == '02pm') {
                             setTimeout("location.reload(true);",timeoutPeriod);
                         }
 
-                        window.onload = timedRefresh(600000);
+                        window.onload = timedRefresh(300000);
 
                         //   -->
                         </script>';
@@ -595,7 +595,7 @@ if (date('ha') == '03pm') {
                             setTimeout("location.reload(true);",timeoutPeriod);
                         }
 
-                        window.onload = timedRefresh(600000);
+                        window.onload = timedRefresh(300000);
 
                         //   -->
                         </script>';
@@ -618,7 +618,7 @@ if (date('ha') == '03pm') {
                             setTimeout("location.reload(true);",timeoutPeriod);
                         }
 
-                        window.onload = timedRefresh(600000);
+                        window.onload = timedRefresh(300000);
 
                         //   -->
                         </script>';
@@ -641,7 +641,7 @@ if (date('ha') == '03pm') {
                             setTimeout("location.reload(true);",timeoutPeriod);
                         }
 
-                        window.onload = timedRefresh(600000);
+                        window.onload = timedRefresh(300000);
 
                         //   -->
                         </script>';
@@ -664,7 +664,7 @@ if (date('ha') == '03pm') {
                             setTimeout("location.reload(true);",timeoutPeriod);
                         }
 
-                        window.onload = timedRefresh(600000);
+                        window.onload = timedRefresh(300000);
 
                         //   -->
                         </script>';
@@ -690,7 +690,7 @@ if (date('ha') == '04pm') {
                             setTimeout("location.reload(true);",timeoutPeriod);
                         }
 
-                        window.onload = timedRefresh(600000);
+                        window.onload = timedRefresh(300000);
 
                         //   -->
                         </script>';
@@ -713,7 +713,7 @@ if (date('ha') == '04pm') {
                             setTimeout("location.reload(true);",timeoutPeriod);
                         }
 
-                        window.onload = timedRefresh(600000);
+                        window.onload = timedRefresh(300000);
 
                         //   -->
                         </script>';
@@ -736,7 +736,7 @@ if (date('ha') == '04pm') {
                             setTimeout("location.reload(true);",timeoutPeriod);
                         }
 
-                        window.onload = timedRefresh(600000);
+                        window.onload = timedRefresh(300000);
 
                         //   -->
                         </script>';
@@ -759,7 +759,7 @@ if (date('ha') == '04pm') {
                             setTimeout("location.reload(true);",timeoutPeriod);
                         }
 
-                        window.onload = timedRefresh(600000);
+                        window.onload = timedRefresh(300000);
 
                         //   -->
                         </script>';
@@ -785,7 +785,7 @@ if (date('ha') == '05pm') {
                             setTimeout("location.reload(true);",timeoutPeriod);
                         }
 
-                        window.onload = timedRefresh(600000);
+                        window.onload = timedRefresh(300000);
 
                         //   -->
                         </script>';
@@ -808,7 +808,7 @@ if (date('ha') == '05pm') {
                             setTimeout("location.reload(true);",timeoutPeriod);
                         }
 
-                        window.onload = timedRefresh(600000);
+                        window.onload = timedRefresh(300000);
 
                         //   -->
                         </script>';
@@ -831,7 +831,7 @@ if (date('ha') == '05pm') {
                             setTimeout("location.reload(true);",timeoutPeriod);
                         }
 
-                        window.onload = timedRefresh(600000);
+                        window.onload = timedRefresh(300000);
 
                         //   -->
                         </script>';
@@ -854,7 +854,7 @@ if (date('ha') == '05pm') {
                             setTimeout("location.reload(true);",timeoutPeriod);
                         }
 
-                        window.onload = timedRefresh(600000);
+                        window.onload = timedRefresh(300000);
 
                         //   -->
                         </script>';
@@ -880,7 +880,7 @@ if (date('ha') == '06pm') {
                             setTimeout("location.reload(true);",timeoutPeriod);
                         }
 
-                        window.onload = timedRefresh(600000);
+                        window.onload = timedRefresh(300000);
 
                         //   -->
                         </script>';
@@ -903,7 +903,7 @@ if (date('ha') == '06pm') {
                             setTimeout("location.reload(true);",timeoutPeriod);
                         }
 
-                        window.onload = timedRefresh(600000);
+                        window.onload = timedRefresh(300000);
 
                         //   -->
                         </script>';
@@ -926,7 +926,7 @@ if (date('ha') == '06pm') {
                             setTimeout("location.reload(true);",timeoutPeriod);
                         }
 
-                        window.onload = timedRefresh(600000);
+                        window.onload = timedRefresh(300000);
 
                         //   -->
                         </script>';
@@ -949,7 +949,7 @@ if (date('ha') == '06pm') {
                             setTimeout("location.reload(true);",timeoutPeriod);
                         }
 
-                        window.onload = timedRefresh(600000);
+                        window.onload = timedRefresh(300000);
 
                         //   -->
                         </script>';
@@ -975,7 +975,7 @@ if (date('ha') == '07pm') {
                             setTimeout("location.reload(true);",timeoutPeriod);
                         }
 
-                        window.onload = timedRefresh(600000);
+                        window.onload = timedRefresh(300000);
 
                         //   -->
                         </script>';
@@ -998,7 +998,7 @@ if (date('ha') == '07pm') {
                             setTimeout("location.reload(true);",timeoutPeriod);
                         }
 
-                        window.onload = timedRefresh(600000);
+                        window.onload = timedRefresh(300000);
 
                         //   -->
                         </script>';
@@ -1021,7 +1021,7 @@ if (date('ha') == '07pm') {
                             setTimeout("location.reload(true);",timeoutPeriod);
                         }
 
-                        window.onload = timedRefresh(600000);
+                        window.onload = timedRefresh(300000);
 
                         //   -->
                         </script>';
@@ -1044,7 +1044,7 @@ if (date('ha') == '07pm') {
                             setTimeout("location.reload(true);",timeoutPeriod);
                         }
 
-                        window.onload = timedRefresh(600000);
+                        window.onload = timedRefresh(300000);
 
                         //   -->
                         </script>';
@@ -1070,7 +1070,7 @@ if (date('ha') == '08pm') {
                             setTimeout("location.reload(true);",timeoutPeriod);
                         }
 
-                        window.onload = timedRefresh(600000);
+                        window.onload = timedRefresh(300000);
 
                         //   -->
                         </script>';
@@ -1093,7 +1093,7 @@ if (date('ha') == '08pm') {
                             setTimeout("location.reload(true);",timeoutPeriod);
                         }
 
-                        window.onload = timedRefresh(600000);
+                        window.onload = timedRefresh(300000);
 
                         //   -->
                         </script>';
@@ -1116,7 +1116,7 @@ if (date('ha') == '08pm') {
                             setTimeout("location.reload(true);",timeoutPeriod);
                         }
 
-                        window.onload = timedRefresh(600000);
+                        window.onload = timedRefresh(300000);
 
                         //   -->
                         </script>';
@@ -1130,8 +1130,8 @@ if (date('ha') == '08pm') {
             $number = strval($number);
             if (date('i') == date($number)) {
                 $date = date('d-m-Y');   //format dd-mm--yy
-                include_once("update_complete.php");
                 $id = 48;
+                include_once("update_complete.php");
                 // include_once("fetchVal.php");
                 echo '<script>
                         <!--
@@ -1139,7 +1139,7 @@ if (date('ha') == '08pm') {
                             setTimeout("location.reload(true);",timeoutPeriod);
                         }
 
-                        window.onload = timedRefresh(600000);
+                        window.onload = timedRefresh(300000);
 
                         //   -->
                         </script>';
@@ -1156,47 +1156,21 @@ if (date('ha') == '08pm') {
         }
     }
 }
-if (date('ha') == '12am' || date('ha') == '01am' || date('ha') == '02am' || date('ha') == '03am' || date('ha') == '04am' || date('ha') == '05am' || date('ha') == '06am' || date('ha') == '07am' || date('ha') == '08am') {
-    
-    // clear data
-    // $sql = "TRUNCATE TABLE randdata";
-    // $delete = mysqli_query($connectdb, $sql);
-    // if ($delete) {
-    //     echo '';
-    // }
-    // update data
-    include_once("config.php");
-    $result = mysqli_query($connectdb, "SELECT * FROM randdata");
-    if (mysqli_num_rows($result) != 0) {
-        $number = 1;
-        $date=date("d/m/Y");
-        while ($number < 49) {
-            $x = 2; //pair of two digits
-            $aa  = substr(str_shuffle("0123456789"), 0, $x);
-            $bb = substr(str_shuffle("2345678910"), 0, $x);
-            $cc = substr(str_shuffle("2341056789"), 0, $x);
-            $v1 = strval($aa);
-            $v2 = strval($bb);
-            $v3 = strval($cc);
-
-            $a = $v1[strlen($v1) - 2];
-            $b = $v2[strlen($v2) - 2];
-            $c = $v3[strlen($v3) - 2];
-
-            $time = '';
-            $status = '';
-            $sql = "UPDATE `randdata` SET `AA` = '$aa', `BB` = '$bb', `CC` = '$cc', `a` = '$a', `b` = '$b', `c` = '$c',`date`='$date' WHERE `id` = $number";
-            $dataupdate = mysqli_query($connectdb, $sql);
-            if ($dataupdate) {
-
-                $number = $number + 1;
-            }
-        }
-    }
+if (date('ha')=='09pm'){
+    $id = 48;
+    include_once('update_complete.php');
+    include_once('uploadhistory.php');
+    include_once("results.php");
 }
 
-if (date('ha') == '09pm' || date('ha') == '10pm' || date('ha') == '11pm' || date('ha') == '12am'|| date('ha') == '01am'|| date('ha') == '02am'|| date('ha') == '03am'|| date('ha') == '04am'|| date('ha') == '05am'|| date('ha') =='06am' || date('ha') =='07am' || date('ha') == '08am') {
-
+if (date('ha') == '10pm' || date('ha') == '11pm' || date('ha') == '12am'|| date('ha') == '01am'|| date('ha') == '02am'|| date('ha') == '03am'|| date('ha') == '04am'|| date('ha') == '05am') {
+    // include_once('create_historyBlank.php');
+    
+    include_once("results.php");
+    
+}
+if(date('ha') =='06am' || date('ha') =='07am' || date('ha') == '08am'){
+    include_once("results.php");
     include_once("config.php");
     $result = mysqli_query($connectdb, "SELECT * FROM randdata");
     if (mysqli_num_rows($result) != 0) {
@@ -1223,10 +1197,7 @@ if (date('ha') == '09pm' || date('ha') == '10pm' || date('ha') == '11pm' || date
                 $number = $number + 1;
             }
         }
-        echo "<script>alert('Updated...');document.location = 'dashboard.php';</script>";
     }
-    include_once("results.php");
 }
-
 // corrct the timings
 ?>

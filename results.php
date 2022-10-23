@@ -1,9 +1,11 @@
-<div class="container bg-dark d-flex justify-content-center " style="border-radius: 0 0 50px 50px;">
+<div class="container bg-dark" style="border-radius: 0 0 50px 50px;">
 
-    <label for="" class=" h2 text-start">Results:</label><br>
-    <p class="my-4">
-        <a class="btn btn-danger btn-lg" data-bs-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Jodi</a>
-        <button class="btn btn-danger btn-lg" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">Single</button>
+    <label for="" class=" h2 text-center">Results:</label><br>
+
+    <p class="my-4 d-flex justify-content-center">
+        <a href="getHistory.php"><button class="btn btn-danger btn-lg"><span class="fa fa-history text-dark">&nbsp;&nbsp;</span>History</button></a>&nbsp;&nbsp;
+        <a class="btn btn-danger btn-lg" data-bs-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Jodi</a>&nbsp;&nbsp;
+        <button class="btn btn-danger btn-lg" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">Single</button>&nbsp;&nbsp;
         <button class="btn btn-danger btn-lg" type="button" data-bs-toggle="collapse" data-bs-target=".multi-collapse" aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2">Both</button>
     </p>
     <div class="row">
@@ -22,7 +24,7 @@
                     </div>
                     <table class="table  table-hover text-center h4 border border-dark border-5">
                         <tr style="background-color:black;color:white;" class="my-5 ">
-                            <th><span class="btn btn-lg btn-outline-danger border-dark h5">DATE</span></th>
+                            <th>DATE</th>
                             <th>TIME</th>
                             <th>AA</th>
                             <th>BB</th>
@@ -74,7 +76,7 @@
                     </div>
                     <table class=" table table-hover text-center h4 border border-dark border-5">
                         <tr style="background-color:black;color:white;" class="my-5 ">
-                            <th><span class="btn btn-lg btn-outline-danger border-dark h5">DATE</span></th>
+                            <th>DATE</th>
                             <th>time</th>
                             <th>AA</th>
                             <th>BB</th>
