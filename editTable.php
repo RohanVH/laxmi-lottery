@@ -27,12 +27,14 @@ if (!$con) {
             <table width='100%' border='0'>
                 <tr>
                     <th width='10%'>ID</th>
+                    <th width='10%'>Time</th>
                     <th width='20%'>AA</th>
                     <th width='20%'>BB</th>
                     <th width='20%'>CC</th>
                     <th width='10%'>A</th>
                     <th width='10%'>B</th>
                     <th width='10%'>C</th>
+                    <th width='10%'>Status</th>
                 </tr>
             <?php 
                 $query = "select * from randdata";
@@ -40,21 +42,25 @@ if (!$con) {
                 $count = 1;
                 while($row = mysqli_fetch_array($result) ){
                     $id = $row['id'];
+                    $time = $row['time'];
                     $AA = $row['AA'];
                     $BB = $row['BB'];
                     $CC = $row['CC'];
                     $a = $row['a'];
                     $b = $row['b'];
                     $c = $row['c'];
+                    $status = $row['status'];
             ?>
                     <tr>
                         <td style="display:flex;justify-content:center;"><?php echo $count; ?></td>
+                        <td> <div style="display:flex;justify-content:center;" contentEditable='true' class='edit' id='AA_<?php echo $id; ?>'> <?php echo $time; ?></div> </td>
                         <td> <div style="display:flex;justify-content:center;" contentEditable='true' class='edit' id='AA_<?php echo $id; ?>'> <?php echo $AA; ?></div> </td>
                         <td> <div style="display:flex;justify-content:center;" contentEditable='true' class='edit' id='BB_<?php echo $id; ?>'><?php echo $BB; ?> </div> </td>
                         <td> <div style="display:flex;justify-content:center;" contentEditable='true' class='edit' id='CC_<?php echo $id; ?>'><?php echo $CC; ?> </div> </td>
                         <td> <div style="display:flex;justify-content:center;" contentEditable='true' class='edit' id='a_<?php echo $id; ?>'><?php echo $a; ?> </div> </td>
                         <td> <div style="display:flex;justify-content:center;" contentEditable='true' class='edit' id='b_<?php echo $id; ?>'><?php echo $b; ?> </div> </td>
                         <td> <div style="display:flex;justify-content:center;" contentEditable='true' class='edit' id='c_<?php echo $id; ?>'><?php echo $c; ?> </div> </td>
+                        <td> <div style="display:flex;justify-content:center;" contentEditable='true' class='edit' id='c_<?php echo $id; ?>'><?php echo $status; ?> </div> </td>
                     </tr>
             <?php
                     $count ++;
