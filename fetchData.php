@@ -18,7 +18,7 @@ if (date('ha') == '09am') {
                             setTimeout("location.reload(true);",timeoutPeriod);
                         }
 
-                        window.onload = timedRefresh(5000);
+                        window.onload = timedRefresh(600000);
 
                         //   -->
                         </script>';
@@ -42,7 +42,7 @@ if (date('ha') == '09am') {
                             setTimeout("location.reload(true);",timeoutPeriod);
                         }
 
-                        window.onload = timedRefresh(5000);
+                        window.onload = timedRefresh(600000);
 
                         //   -->
                         </script>';
@@ -70,7 +70,7 @@ if (date('ha') == '09am') {
                             setTimeout("location.reload(true);",timeoutPeriod);
                         }
 
-                        window.onload = timedRefresh(5000);
+                        window.onload = timedRefresh(600000);
 
                         //   -->
                         </script>';
@@ -97,7 +97,7 @@ if (date('ha') == '09am') {
                             setTimeout("location.reload(true);",timeoutPeriod);
                         }
 
-                        window.onload = timedRefresh(5000);
+                        window.onload = timedRefresh(600000);
 
                         //   -->
                         </script>';
@@ -128,7 +128,7 @@ if (date('ha') == '10am') {
                             setTimeout("location.reload(true);",timeoutPeriod);
                         }
 
-                        window.onload = timedRefresh(5000);
+                        window.onload = timedRefresh(600000);
 
                         //   -->
                         </script>';
@@ -154,7 +154,7 @@ if (date('ha') == '10am') {
                             setTimeout("location.reload(true);",timeoutPeriod);
                         }
 
-                        window.onload = timedRefresh(5000);
+                        window.onload = timedRefresh(600000);
 
                         //   -->
                         </script>';
@@ -180,7 +180,7 @@ if (date('ha') == '10am') {
                             setTimeout("location.reload(true);",timeoutPeriod);
                         }
 
-                        window.onload = timedRefresh(5000);
+                        window.onload = timedRefresh(600000);
 
                         //   -->
                         </script>';
@@ -206,7 +206,7 @@ if (date('ha') == '10am') {
                             setTimeout("location.reload(true);",timeoutPeriod);
                         }
 
-                        window.onload = timedRefresh(5000);
+                        window.onload = timedRefresh(600000);
 
                         //   -->
                         </script>';
@@ -237,7 +237,7 @@ if (date('ha') == '11am') {
                             setTimeout("location.reload(true);",timeoutPeriod);
                         }
 
-                        window.onload = timedRefresh(5000);
+                        window.onload = timedRefresh(600000);
 
                         //   -->
                         </script>';
@@ -263,7 +263,7 @@ if (date('ha') == '11am') {
                             setTimeout("location.reload(true);",timeoutPeriod);
                         }
 
-                        window.onload = timedRefresh(5000);
+                        window.onload = timedRefresh(600000);
 
                         //   -->
                         </script>';
@@ -289,7 +289,7 @@ if (date('ha') == '11am') {
                             setTimeout("location.reload(true);",timeoutPeriod);
                         }
 
-                        window.onload = timedRefresh(5000);
+                        window.onload = timedRefresh(600000);
 
                         //   -->
                         </script>';
@@ -315,7 +315,7 @@ if (date('ha') == '11am') {
                             setTimeout("location.reload(true);",timeoutPeriod);
                         }
 
-                        window.onload = timedRefresh(5000);
+                        window.onload = timedRefresh(600000);
 
                         //   -->
                         </script>';
@@ -346,7 +346,7 @@ if (date('ha') == '12pm') {
                             setTimeout("location.reload(true);",timeoutPeriod);
                         }
 
-                        window.onload = timedRefresh(5000);
+                        window.onload = timedRefresh(600000);
 
                         //   -->
                         </script>';
@@ -372,7 +372,7 @@ if (date('ha') == '12pm') {
                             setTimeout("location.reload(true);",timeoutPeriod);
                         }
 
-                        window.onload = timedRefresh(5000);
+                        window.onload = timedRefresh(600000);
 
                         //   -->
                         </script>';
@@ -398,7 +398,7 @@ if (date('ha') == '12pm') {
                             setTimeout("location.reload(true);",timeoutPeriod);
                         }
 
-                        window.onload = timedRefresh(5000);
+                        window.onload = timedRefresh(600000);
 
                         //   -->
                         </script>';
@@ -424,7 +424,7 @@ if (date('ha') == '12pm') {
                             setTimeout("location.reload(true);",timeoutPeriod);
                         }
 
-                        window.onload = timedRefresh(5000);
+                        window.onload = timedRefresh(600000);
 
                         //   -->
                         </script>';
@@ -455,7 +455,7 @@ if (date('ha') == '01pm') {
                             setTimeout("location.reload(true);",timeoutPeriod);
                         }
 
-                        window.onload = timedRefresh(5000);
+                        window.onload = timedRefresh(600000);
 
                         //   -->
                         </script>';
@@ -481,7 +481,7 @@ if (date('ha') == '01pm') {
                             setTimeout("location.reload(true);",timeoutPeriod);
                         }
 
-                        window.onload = timedRefresh(5000);
+                        window.onload = timedRefresh(600000);
 
                         //   -->
                         </script>';
@@ -507,7 +507,7 @@ if (date('ha') == '01pm') {
                             setTimeout("location.reload(true);",timeoutPeriod);
                         }
 
-                        window.onload = timedRefresh(5000);
+                        window.onload = timedRefresh(600000);
 
                         //   -->
                         </script>';
@@ -533,7 +533,7 @@ if (date('ha') == '01pm') {
                             setTimeout("location.reload(true);",timeoutPeriod);
                         }
 
-                        window.onload = timedRefresh(5000);
+                        window.onload = timedRefresh(600000);
 
                         //   -->
                         </script>';
@@ -564,7 +564,7 @@ if (date('ha') == '02pm') {
                             setTimeout("location.reload(true);",timeoutPeriod);
                         }
 
-                        window.onload = timedRefresh(5000);
+                        window.onload = timedRefresh(600000);
 
                         //   -->
                         </script>';
@@ -590,7 +590,7 @@ if (date('ha') == '02pm') {
                             setTimeout("location.reload(true);",timeoutPeriod);
                         }
 
-                        window.onload = timedRefresh(5000);
+                        window.onload = timedRefresh(600000);
 
                         //   -->
                         </script>';
@@ -616,7 +616,7 @@ if (date('ha') == '02pm') {
                             setTimeout("location.reload(true);",timeoutPeriod);
                         }
 
-                        window.onload = timedRefresh(5000);
+                        window.onload = timedRefresh(600000);
 
                         //   -->
                         </script>';
@@ -642,7 +642,7 @@ if (date('ha') == '02pm') {
                             setTimeout("location.reload(true);",timeoutPeriod);
                         }
 
-                        window.onload = timedRefresh(5000);
+                        window.onload = timedRefresh(600000);
 
                         //   -->
                         </script>';
@@ -673,7 +673,7 @@ if (date('ha') == '03pm') {
                             setTimeout("location.reload(true);",timeoutPeriod);
                         }
 
-                        window.onload = timedRefresh(5000);
+                        window.onload = timedRefresh(600000);
 
                         //   -->
                         </script>';
@@ -699,7 +699,7 @@ if (date('ha') == '03pm') {
                             setTimeout("location.reload(true);",timeoutPeriod);
                         }
 
-                        window.onload = timedRefresh(5000);
+                        window.onload = timedRefresh(600000);
 
                         //   -->
                         </script>';
@@ -725,7 +725,7 @@ if (date('ha') == '03pm') {
                             setTimeout("location.reload(true);",timeoutPeriod);
                         }
 
-                        window.onload = timedRefresh(5000);
+                        window.onload = timedRefresh(600000);
 
                         //   -->
                         </script>';
@@ -751,7 +751,7 @@ if (date('ha') == '03pm') {
                             setTimeout("location.reload(true);",timeoutPeriod);
                         }
 
-                        window.onload = timedRefresh(5000);
+                        window.onload = timedRefresh(600000);
 
                         //   -->
                         </script>';
@@ -782,7 +782,7 @@ if (date('ha') == '04pm') {
                             setTimeout("location.reload(true);",timeoutPeriod);
                         }
 
-                        window.onload = timedRefresh(5000);
+                        window.onload = timedRefresh(600000);
 
                         //   -->
                         </script>';
@@ -808,7 +808,7 @@ if (date('ha') == '04pm') {
                             setTimeout("location.reload(true);",timeoutPeriod);
                         }
 
-                        window.onload = timedRefresh(5000);
+                        window.onload = timedRefresh(600000);
 
                         //   -->
                         </script>';
@@ -834,7 +834,7 @@ if (date('ha') == '04pm') {
                             setTimeout("location.reload(true);",timeoutPeriod);
                         }
 
-                        window.onload = timedRefresh(5000);
+                        window.onload = timedRefresh(600000);
 
                         //   -->
                         </script>';
@@ -860,7 +860,7 @@ if (date('ha') == '04pm') {
                             setTimeout("location.reload(true);",timeoutPeriod);
                         }
 
-                        window.onload = timedRefresh(5000);
+                        window.onload = timedRefresh(600000);
 
                         //   -->
                         </script>';
@@ -891,7 +891,7 @@ if (date('ha') == '05pm') {
                             setTimeout("location.reload(true);",timeoutPeriod);
                         }
 
-                        window.onload = timedRefresh(5000);
+                        window.onload = timedRefresh(600000);
 
                         //   -->
                         </script>';
@@ -917,7 +917,7 @@ if (date('ha') == '05pm') {
                             setTimeout("location.reload(true);",timeoutPeriod);
                         }
 
-                        window.onload = timedRefresh(5000);
+                        window.onload = timedRefresh(600000);
 
                         //   -->
                         </script>';
@@ -943,7 +943,7 @@ if (date('ha') == '05pm') {
                             setTimeout("location.reload(true);",timeoutPeriod);
                         }
 
-                        window.onload = timedRefresh(5000);
+                        window.onload = timedRefresh(600000);
 
                         //   -->
                         </script>';
@@ -969,7 +969,7 @@ if (date('ha') == '05pm') {
                             setTimeout("location.reload(true);",timeoutPeriod);
                         }
 
-                        window.onload = timedRefresh(5000);
+                        window.onload = timedRefresh(600000);
 
                         //   -->
                         </script>';
@@ -1000,7 +1000,7 @@ if (date('ha') == '06pm') {
                             setTimeout("location.reload(true);",timeoutPeriod);
                         }
 
-                        window.onload = timedRefresh(5000);
+                        window.onload = timedRefresh(600000);
 
                         //   -->
                         </script>';
@@ -1026,7 +1026,7 @@ if (date('ha') == '06pm') {
                             setTimeout("location.reload(true);",timeoutPeriod);
                         }
 
-                        window.onload = timedRefresh(5000);
+                        window.onload = timedRefresh(600000);
 
                         //   -->
                         </script>';
@@ -1052,7 +1052,7 @@ if (date('ha') == '06pm') {
                             setTimeout("location.reload(true);",timeoutPeriod);
                         }
 
-                        window.onload = timedRefresh(5000);
+                        window.onload = timedRefresh(600000);
 
                         //   -->
                         </script>';
@@ -1078,7 +1078,7 @@ if (date('ha') == '06pm') {
                             setTimeout("location.reload(true);",timeoutPeriod);
                         }
 
-                        window.onload = timedRefresh(5000);
+                        window.onload = timedRefresh(600000);
 
                         //   -->
                         </script>';
@@ -1109,7 +1109,7 @@ if (date('ha') == '07pm') {
                             setTimeout("location.reload(true);",timeoutPeriod);
                         }
 
-                        window.onload = timedRefresh(5000);
+                        window.onload = timedRefresh(600000);
 
                         //   -->
                         </script>';
@@ -1135,7 +1135,7 @@ if (date('ha') == '07pm') {
                             setTimeout("location.reload(true);",timeoutPeriod);
                         }
 
-                        window.onload = timedRefresh(5000);
+                        window.onload = timedRefresh(600000);
 
                         //   -->
                         </script>';
@@ -1161,7 +1161,7 @@ if (date('ha') == '07pm') {
                             setTimeout("location.reload(true);",timeoutPeriod);
                         }
 
-                        window.onload = timedRefresh(5000);
+                        window.onload = timedRefresh(600000);
 
                         //   -->
                         </script>';
@@ -1187,7 +1187,7 @@ if (date('ha') == '07pm') {
                             setTimeout("location.reload(true);",timeoutPeriod);
                         }
 
-                        window.onload = timedRefresh(5000);
+                        window.onload = timedRefresh(600000);
 
                         //   -->
                         </script>';
@@ -1218,7 +1218,7 @@ if (date('ha') == '08pm') {
                             setTimeout("location.reload(true);",timeoutPeriod);
                         }
 
-                        window.onload = timedRefresh(5000);
+                        window.onload = timedRefresh(600000);
 
                         //   -->
                         </script>';
@@ -1244,7 +1244,7 @@ if (date('ha') == '08pm') {
                             setTimeout("location.reload(true);",timeoutPeriod);
                         }
 
-                        window.onload = timedRefresh(5000);
+                        window.onload = timedRefresh(600000);
 
                         //   -->
                         </script>';
@@ -1270,7 +1270,7 @@ if (date('ha') == '08pm') {
                             setTimeout("location.reload(true);",timeoutPeriod);
                         }
 
-                        window.onload = timedRefresh(5000);
+                        window.onload = timedRefresh(600000);
 
                         //   -->
                         </script>';
@@ -1296,7 +1296,7 @@ if (date('ha') == '08pm') {
                             setTimeout("location.reload(true);",timeoutPeriod);
                         }
 
-                        window.onload = timedRefresh(5000);
+                        window.onload = timedRefresh(600000);
 
                         //   -->
                         </script>';
