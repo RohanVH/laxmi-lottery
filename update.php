@@ -1,9 +1,5 @@
 <?php
-$server='127.0.0.1';
-$username='root';
-$password='';
-$dbname= 'laxmi-lottery';
-$connectdb=mysqli_connect($server,$username,$password,$dbname);
+include_once("config.php");
 $result = mysqli_query($connectdb, "SELECT * FROM randdata");
 if (mysqli_num_rows($result)!=0){
     $number=1;
