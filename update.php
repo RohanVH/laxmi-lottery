@@ -22,7 +22,7 @@ if (mysqli_num_rows($result)!=0){
 
         $time = '';
         $status = '';
-        $sql = "UPDATE `randdata` SET `AA` = '$aa', `BB` = '$bb', `CC` = '$cc', `a` = '$a', `b` = '$b', `c` = '$c' WHERE `id` = $number";
+        $sql = "UPDATE `randdata` SET `AA` = '$aa', `BB` = '$bb', `CC` = '$cc', `a` = '$a', `b` = '$b', `c` = '$c',`time`='$time',`status`='$status' WHERE `id` = $number";
         $dataupdate = mysqli_query($connectdb, $sql);
         if($dataupdate){
 
