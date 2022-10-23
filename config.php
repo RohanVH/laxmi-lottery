@@ -1,9 +1,7 @@
-<!-- /**
- * Author:    Rohan
- * Created:   21.10.2022
- * 
- * (c) Copyright by Dword Core.
- **/ -->
+<!-- database file names:
+ 1. config.php 
+2. db. php-->
+
 <?php
 $server='localhost';
 $username='root';
