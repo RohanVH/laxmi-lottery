@@ -1,6 +1,5 @@
 <?php
 include("config.php");
-$connectdb=mysqli_connect($server,$username,$password,$dbname);
 $result = mysqli_query($connectdb, "SELECT * FROM randdata");
 if(mysqli_num_rows($result)==0){
     $num=1;
@@ -17,9 +16,9 @@ if(mysqli_num_rows($result)==0){
         $b = $v2[strlen($v2) - 2];
         $c = $v3[strlen($v3) - 2];
 
-        $time = '';
+        $date =date('d/m/Y');
         $status = '';
-        $sql1 = "INSERT INTO `randdata` VALUES ('', '$aa', '$bb', '$cc', '$a', '$b', '$c', '', '')";
+        $sql1 = "INSERT INTO `randdata` VALUES ('', '$aa', '$bb', '$cc', '$a', '$b', '$c', '', '','')";
         $datainsert = mysqli_query($connectdb, $sql1);
         if($datainsert){
 
@@ -28,5 +27,199 @@ if(mysqli_num_rows($result)==0){
     }
     echo "<script>alert('New Data Uploaded...');document.location = 'dashboard.php';</script>";
 }
+// time update
+
+//For id=1
+$query = "UPDATE `randdata` SET `time`='09:00am' , `date`='$date' where id='1'";
+mysqli_query($connectdb, $query);
+
+//For id=2
+$query = "UPDATE `randdata` SET `time`='09:15am' , `date`='$date' where id='2'";
+mysqli_query($connectdb, $query);
+
+//For id=3
+$query = "UPDATE `randdata` SET `time`='09:30am' , `date`='$date' where id='3'";
+mysqli_query($connectdb, $query);
+
+//For id=4
+$query = "UPDATE `randdata` SET `time`='09:45am' , `date`='$date' where id='4'";
+mysqli_query($connectdb, $query);
+
+//For id=5
+$query = "UPDATE `randdata` SET `time`='10:15am' , `date`='$date' where id='5'";
+mysqli_query($connectdb, $query);
+
+//For id=6
+$query = "UPDATE `randdata` SET `time`='10:30am' , `date`='$date' where id='6'";
+mysqli_query($connectdb, $query);
+
+//For id=7
+$query = "UPDATE `randdata` SET `time`='10:45am' , `date`='$date' where id='7'";
+mysqli_query($connectdb, $query);
+
+//For id=8
+$query = "UPDATE `randdata` SET `time`='11:00am' , `date`='$date' where id='8'";
+mysqli_query($connectdb, $query);
+
+//For id=9
+$query = "UPDATE `randdata` SET `time`='11:15am' , `date`='$date' where id='9'";
+mysqli_query($connectdb, $query);
+
+//For id=10
+$query = "UPDATE `randdata` SET `time`='11:30am' , `date`='$date' where id='10'";
+mysqli_query($connectdb, $query);
+
+//For id=11
+$query = "UPDATE `randdata` SET `time`='11:45am' , `date`='$date' where id='11'";
+mysqli_query($connectdb, $query);
+
+//For id=12
+$query = "UPDATE `randdata` SET `time`='12:00pm' , `date`='$date' where id='12'";
+mysqli_query($connectdb, $query);
+
+//For id=13
+$query = "UPDATE `randdata` SET `time`='12:15pm' , `date`='$date' where id='13'";
+mysqli_query($connectdb, $query);
+
+//For id=14
+$query = "UPDATE `randdata` SET `time`='12:30pm' , `date`='$date' where id='14'";
+mysqli_query($connectdb, $query);
+
+//For id=15
+$query = "UPDATE `randdata` SET `time`='12:45pm' , `date`='$date' where id='15'";
+mysqli_query($connectdb, $query);
+
+//For id=16
+$query = "UPDATE `randdata` SET `time`='01:00pm' , `date`='$date' where id='16'";
+mysqli_query($connectdb, $query);
+
+//For id=17
+$query = "UPDATE `randdata` SET `time`='01:15pm' , `date`='$date' where id='17'";
+mysqli_query($connectdb, $query);
+
+//For id=18
+$query = "UPDATE `randdata` SET `time`='01:30pm' , `date`='$date' where id='18'";
+mysqli_query($connectdb, $query);
+
+//For id=19
+$query = "UPDATE `randdata` SET `time`='01:45pm' , `date`='$date' where id='19'";
+mysqli_query($connectdb, $query);
+
+//For id=20
+$query = "UPDATE `randdata` SET `time`='02:00pm' , `date`='$date' where id='20'";
+mysqli_query($connectdb, $query);
+
+//For id=21
+$query = "UPDATE `randdata` SET `time`='02:15pm' , `date`='$date' where id='21'";
+mysqli_query($connectdb, $query);
+
+//For id=22
+$query = "UPDATE `randdata` SET `time`='02:30pm' , `date`='$date' where id='22'";
+mysqli_query($connectdb, $query);
+
+//For id=23
+$query = "UPDATE `randdata` SET `time`='02:45pm' , `date`='$date' where id='23'";
+mysqli_query($connectdb, $query);
+
+//For id=24
+$query = "UPDATE `randdata` SET `time`='03:00pm' , `date`='$date' where id='24'";
+mysqli_query($connectdb, $query);
+
+//For id=25
+$query = "UPDATE `randdata` SET `time`='03:15pm' , `date`='$date' where id='25'";
+mysqli_query($connectdb, $query);
+
+//For id=26
+$query = "UPDATE `randdata` SET `time`='03:30pm' , `date`='$date' where id='26'";
+mysqli_query($connectdb, $query);
+
+//For id=27
+$query = "UPDATE `randdata` SET `time`='03:45pm' , `date`='$date' where id='27'";
+mysqli_query($connectdb, $query);
+
+//For id=28
+$query = "UPDATE `randdata` SET `time`='04:00pm' , `date`='$date' where id='28'";
+mysqli_query($connectdb, $query);
+
+//For id=29
+$query = "UPDATE `randdata` SET `time`='04:15pm' , `date`='$date' where id='29'";
+mysqli_query($connectdb, $query);
+
+//For id=30
+$query = "UPDATE `randdata` SET `time`='04:30pm' , `date`='$date' where id='30'";
+mysqli_query($connectdb, $query);
+
+//For id=31
+$query = "UPDATE `randdata` SET `time`='04:45pm' , `date`='$date' where id='31'";
+mysqli_query($connectdb, $query);
+
+//For id=32
+$query = "UPDATE `randdata` SET `time`='05:00pm' , `date`='$date' where id='32'";
+mysqli_query($connectdb, $query);
+
+//For id=33
+$query = "UPDATE `randdata` SET `time`='05:15pm' , `date`='$date' where id='33'";
+mysqli_query($connectdb, $query);
+
+//For id=34
+$query = "UPDATE `randdata` SET `time`='05:30pm' , `date`='$date' where id='34'";
+mysqli_query($connectdb, $query);
+
+//For id=35
+$query = "UPDATE `randdata` SET `time`='05:45pm' , `date`='$date' where id='35'";
+mysqli_query($connectdb, $query);
+
+//For id=36
+$query = "UPDATE `randdata` SET `time`='06:00pm' , `date`='$date' where id='36'";
+mysqli_query($connectdb, $query);
+
+//For id=37
+$query = "UPDATE `randdata` SET `time`='06:15pm' , `date`='$date' where id='37'";
+mysqli_query($connectdb, $query);
+
+//For id=38
+$query = "UPDATE `randdata` SET `time`='06:30pm' , `date`='$date' where id='38'";
+mysqli_query($connectdb, $query);
+
+//For id=39
+$query = "UPDATE `randdata` SET `time`='06:45pm' , `date`='$date' where id='39'";
+mysqli_query($connectdb, $query);
+
+//For id=40
+$query = "UPDATE `randdata` SET `time`='07:00pm' , `date`='$date' where id='40'";
+mysqli_query($connectdb, $query);
+
+//For id=41
+$query = "UPDATE `randdata` SET `time`='07:15pm' , `date`='$date' where id='41'";
+mysqli_query($connectdb, $query);
+
+//For id=42
+$query = "UPDATE `randdata` SET `time`='07:30pm' , `date`='$date' where id='42'";
+mysqli_query($connectdb, $query);
+
+//For id=43
+$query = "UPDATE `randdata` SET `time`='07:45pm' , `date`='$date' where id='43'";
+mysqli_query($connectdb, $query);
+
+//For id=44
+$query = "UPDATE `randdata` SET `time`='08:00pm' , `date`='$date' where id='44'";
+mysqli_query($connectdb, $query);
+
+//For id=45
+$query = "UPDATE `randdata` SET `time`='08:15pm' , `date`='$date' where id='45'";
+mysqli_query($connectdb, $query);
+
+//For id=46
+$query = "UPDATE `randdata` SET `time`='08:30pm' , `date`='$date' where id='46'";
+mysqli_query($connectdb, $query);
+
+//For id=47
+$query = "UPDATE `randdata` SET `time`='08:45pm' , `date`='$date' where id='47'";
+mysqli_query($connectdb, $query);
+
+//For id=48
+$query = "UPDATE `randdata` SET `time`='09:00pm' , `date`='$date' where id='48'";
+mysqli_query($connectdb, $query);
+
 
 ?>

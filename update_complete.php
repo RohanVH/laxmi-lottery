@@ -1,7 +1,7 @@
 <?php
 //update status in randdata table 
-
-$update_status="UPDATE randdata SET `time` = '$end_time', `status`= 'completed' WHERE id = $id";
+$date=date("d/m/Y");
+$update_status="UPDATE randdata SET `status`= 'completed',`date`='$date' WHERE id < '$id'";
 $status_data = mysqli_query($connectdb, $update_status);
 if($status_data){
     echo '';

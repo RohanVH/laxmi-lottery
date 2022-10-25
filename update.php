@@ -15,10 +15,10 @@ if (mysqli_num_rows($result)!=0){
         $a = $v1[strlen($v1) - 2];
         $b = $v2[strlen($v2) - 2];
         $c = $v3[strlen($v3) - 2];
-
+        $date = date("d/m/Y");
         $time = '';
         $status = '';
-        $sql = "UPDATE `randdata` SET `AA` = '$aa', `BB` = '$bb', `CC` = '$cc', `a` = '$a', `b` = '$b', `c` = '$c',`time`='$time',`status`='$status' WHERE `id` = $number";
+        $sql = "UPDATE `randdata` SET `AA` = '$aa', `BB` = '$bb', `CC` = '$cc', `a` = '$a', `b` = '$b', `c` = '$c',`date`='$date',`status`='' WHERE `id` = $number";
         $dataupdate = mysqli_query($connectdb, $sql);
         if($dataupdate){
 
