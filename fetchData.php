@@ -1144,10 +1144,6 @@ if (date('ha') == '08pm') {
                         //   -->
                         </script>';
                 include_once("results.php");
-
-                
-
-
                 // last row
                 $date = date('d-m-Y');   //format dd-mm--yy
                 $id = 48;
@@ -1156,9 +1152,7 @@ if (date('ha') == '08pm') {
         }
     }
 }
-if (date('ha')=='09pm'){
-    $id = 48;
-    include_once('update_complete.php');
+if (date('ha')>='09pm'){
     include_once('uploadhistory.php');
     include_once("results.php");
 }
