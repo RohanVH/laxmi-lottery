@@ -832,12 +832,12 @@
     <br>
     <br>
     <br>
-    <section class="next-draw-section">
-        <div class="next-draw-area">
+    <section class="next-draw-section ">
+        <div class="next-draw-area ">
             <div class="container">
-                <div class="row justify-content-center text-light">
+                <div class="row justify-content-center text-light ">
                     <div class="col-lg-12">
-                        <div class="next-draw-wrapper d-flex align-items-center bg-dark">
+                        <div class="next-draw-wrapper d-flex align-items-center bg-dark" >
                             <div class="next-draw-content">
                                 <h2 class="title">Next draw time remaining</h2>
                                 <p class="text-center h3 text-danger"><?php echo date("d-m-Y") ?></p>
@@ -865,10 +865,10 @@
         <input class="last_time" name="last_record" type="hidden" value="2022/08/26 14:00:00">
     </section>
    
-    <footer class="footer-section bg-dark">
+    <footer class="footer-section bg-dark text-light ">
         <div class="footer-top">
             <div class="container">
-                <div class="row justify-content-between">
+                <div class="row justify-content-center">
                     <div class="col-lg-5 col-md-8">
                         <div class="footer-widget about-widget">
                             <div class="widget-body">
