@@ -3,6 +3,7 @@
 <html dir="ltr" lang="en-US" prefix="og: https://ogp.me/ns#" class="no-js">
 
 <head>
+    <link rel="icon" type="image/x-icon" href="image/NPG.png">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -784,19 +785,19 @@
         </defs>
     </svg>
     <header id="nav-header" class="clear" role="header">
-        <div class="col-md-12 d-flex justify-content-end  bg-dark">
+        <!-- <div class="col-md-12 d-flex justify-content-end  bg-dark">
                          <br>
                          <br>
                         <button class="bn btn-danger btn-lg my-5" ><a href="admin.php" class="text-light">ADMIN</a></button>
                         <br>
                         <br>
-        </div>
+        </div> -->
 
         <nav id="bcb-main-navbar" class="navbar-light navbar navbar-expand-lg py-0 bg-dark ">
             <div class="container ">
                 <div class="col-md-12 d-flex justify-content-start">
                     <a id="navbar-brand-logo" class="navbar-brand" href="">
-                        <img src="img/lottery-logo.gif" alt="Lottery" />
+                        <img src="image/NPG.svg" alt="Lottery" />
                     </a>
                 </div>
                 
@@ -806,15 +807,19 @@
     </header>
 
     <section class="banner-section">
-        <div class="parallax-container"> <span class="slide1"><img src="https://lottery.digitalapp.co.in/wp-content/themes/bootstrap-component-blox/images/shape/star.png" alt="banner-shape"></span> </div>
+        <div class="parallax-container"> <span class="slide1"></span> </div>
         <div class="banner-content-area">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-5">
                         <div class="banner-content">
-                            <h3 class="banner-top-title">Luxmi Gold Lottery</h3>
+                            <h3 class="banner-top-title">Nepal Punjab Gold</h3>
                             <h1 class="banner-main-title">Just One Way</h1>
-                            <p>Believe in something bigger and better</p>
+                            <p>
+                                <b>
+                                    Believe in something bigger and better
+                                </b>
+                            </p>
                             <a href="javascript:void(0)" class="cmn-btn btn-lg">buy ticket now</a>
                         </div>
                     </div>
@@ -824,19 +829,23 @@
     </section>
     <!-- banner-section end -->
     <!-- next-draw-section start -->
+    <br>
+    <br>
+    <br>
     <section class="next-draw-section">
         <div class="next-draw-area">
             <div class="container">
-                <div class="row justify-content-center">
+                <div class="row justify-content-center text-light">
                     <div class="col-lg-12">
-                        <div class="next-draw-wrapper d-flex align-items-center">
+                        <div class="next-draw-wrapper d-flex align-items-center bg-dark">
                             <div class="next-draw-content">
                                 <h2 class="title">Next draw time remaining</h2>
-                                <p>October 19, 2022</p>
+                                <p class="text-center h3 text-danger"><?php echo date("d-m-Y") ?></p>
                             </div>
                             <div class="next-draw-countdown text-center">
-                                <a class="cmn-btn btn-lg" style="color:#FFFFFF;     font-size: 21px;"><span id='ct6' style="    color: #fff;
-    font-size: 22px;"></span>
+                                <a class="cmn-btn btn-lg" style="color:#FFFFFF;     font-size: 21px;">
+                                <span id='ct6' style="    color: #fff; font-size: 22px;"></span>
+
 
                                 </a>
                             </div>
@@ -856,7 +865,7 @@
         <input class="last_time" name="last_record" type="hidden" value="2022/08/26 14:00:00">
     </section>
    
-    <footer class="footer-section">
+    <footer class="footer-section bg-dark">
         <div class="footer-top">
             <div class="container">
                 <div class="row justify-content-between">
