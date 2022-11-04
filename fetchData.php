@@ -1143,11 +1143,33 @@ if (date('ha') == '08pm') {
 
                         //   -->
                         </script>';
-                include_once("results.php");
-                // last row
+               
+            }
+        }
+    }
+}
+if (date('ha') == '09pm') {
+    for ($number = 0; $number <= 59; $number++) {
+
+        if (date('i') >= 00 && date('i') < 15) {
+            $number = strval($number);  
+            if (date('i') == date($number)) {
                 $date = date('d-m-Y');   //format dd-mm--yy
                 $id = 48;
                 include_once("update_complete.php");
+                // include_once("fetchVal.php");
+                echo '<script>
+                        <!--
+                        function timedRefresh(timeoutPeriod) {
+                            setTimeout("location.reload(true);",timeoutPeriod);
+                        }
+
+                        window.onload = timedRefresh(300000);
+
+                        //   -->
+                        </script>';
+                include_once("results.php");
+                
             }
         }
     }
