@@ -2,4 +2,4 @@
 session_start();
 include 'db.php';
 include 'model.php';
-define('PROJECT_NAME', 'Laxmi-lottery');
+define('PROJECT_NAME', 'NepalPunjabGold');

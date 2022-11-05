@@ -13,7 +13,7 @@
         <li class="active"><a href="dashboard.php"><i class="fa fa-home"></i>  Dashboard</a></li>
         <li class="active"><a href="sj.php"><i class=""></i> Single/Jodi</a></li>
         
-        <li><a href="editTable.php"><i class="fa fa-book"></i>  Edit Table</a></li>
+        <li><a href="editTable.php"><i class="fa fa-book"></i>  Completed-Data</a></li>
         <li><a href="generate.php"><i class="fa fa-plus"></i>  Generate</a></li>
         <li><a href="update.php"><i class="fa fa-refresh"></i>  Update</a></li>
         <li><a href="cleardata.php"><i class="fa fa-trash"></i>  Clear Data</a></li>

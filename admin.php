@@ -10,7 +10,7 @@ require 'init.php';
       <br>
       <br>
      	<h4>ADMIN</h4>
-     	<h1>Laxmi-Lottery</h1>
+     	<h1>Nepal Punjab Gold</h1>
      </div>
      <div class="col-md-4">
      	<?php include 'login_form.php'; ?>
