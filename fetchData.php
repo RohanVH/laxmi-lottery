@@ -1152,10 +1152,10 @@ if (date('ha') == '09pm') {
     for ($number = 0; $number <= 59; $number++) {
 
         if (date('i') >= 00 && date('i') < 15) {
-            $number = strval($number);  
+            $number = strval($number);
             if (date('i') == date($number)) {
                 $date = date('d-m-Y');   //format dd-mm--yy
-                $id = 48;
+                $id = 49;
                 include_once("update_complete.php");
                 // include_once("fetchVal.php");
                 echo '<script>
@@ -1169,18 +1169,21 @@ if (date('ha') == '09pm') {
                         //   -->
                         </script>';
                 include_once("results.php");
+                include_once('uploadhistory.php');
                 
             }
+            if (date('i')>=15 && date('i')<60){
+                include_once("results.php");
+            }
+            
         }
     }
 }
-if (date('ha')>='09pm'){
-    include_once('uploadhistory.php');
-    include_once("results.php");
-}
+
+
+
 
 if (date('ha') == '10pm' || date('ha') == '11pm' || date('ha') == '12am'|| date('ha') == '01am'|| date('ha') == '02am'|| date('ha') == '03am'|| date('ha') == '04am'|| date('ha') == '05am') {
-    // include_once('create_historyBlank.php');
     
     include_once("results.php");
     

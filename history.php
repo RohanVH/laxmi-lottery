@@ -9,8 +9,7 @@
 		<tbody>
 			<?php
              	include("all_history.php");
-				
-			?>
+			?> 
 		</tbody>
 	</table>
 </div>

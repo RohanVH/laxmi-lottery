@@ -38,7 +38,7 @@ include_once("config.php");
                 <th width='10%' class="text-danger">STATUS</th>
             </tr>
             <?php
-            $query = "select * from randdata";
+            $query = "select * from randdata where status='completed'";
             $result = mysqli_query($connectdb, $query);
             $count = 1;
             while ($row = mysqli_fetch_array($result)) {
@@ -94,3 +94,12 @@ include_once("config.php");
 </body>
 
 </html>
+
+
+
+<!-- echo '<tr class="my-4 bg-light"><td width="20%" style="color:green;background-color:black">' . '⏱️' . $date = $row['date'] . '</td>';
+echo '<td width="10%" style="color:white;background-color:black">' . $time = $row['time'] . '</td>';
+echo '<td width="10%">' . $aa = $row['AA'] . '</td>';
+echo '<td width="10%">' . $bb = $row['BB'] . '</td>';
+echo '<td width="10%">' . $cc = $row['CC'] . '</td>';
+$n = $n + 1; -->

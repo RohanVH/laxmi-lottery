@@ -5,7 +5,7 @@ include_once("config.php");
 $query = "SELECT * from randdata where `status`='completed'";
 $result = mysqli_query($connectdb, $query);
 $number=1;
-while($number<49){
+while($number<=49){
         while ($row = mysqli_fetch_array($result)) {
             $date = $row['date'];
             $time = $row['time'];

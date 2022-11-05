@@ -43,6 +43,8 @@ mysqli_query($connectdb, $query);
 
 $query = "UPDATE `randdata` SET `time`='10:00am' , `date`='$date' where id='5'";
 mysqli_query($connectdb, $query);
+
+
 $query = "UPDATE `randdata` SET `time`='10:15am' , `date`='$date' where id='6'";
 mysqli_query($connectdb, $query);
 
