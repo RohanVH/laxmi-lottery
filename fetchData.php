@@ -1143,6 +1143,7 @@ if (date('ha') == '08pm') {
 
                         //   -->
                         </script>';
+                include_once("results.php");
                
             }
         }
