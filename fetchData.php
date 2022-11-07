@@ -1158,7 +1158,6 @@ if (date('ha') == '09pm') {
                 $date = date('d-m-Y');   //format dd-mm--yy
                 $id = 49;
                 include_once("update_complete.php");
-                // include_once("fetchVal.php");
                 echo '<script>
                         <!--
                         function timedRefresh(timeoutPeriod) {
