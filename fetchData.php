@@ -1173,10 +1173,10 @@ if (date('ha') == '09pm') {
                 include_once('uploadhistory.php');
                 
             }
-            if (date('i')>=15 && date('i')<60){
-                include_once("results.php");
-            }
             
+        }
+        if (date('i')>=15 && date('i')<60){
+            include_once("results.php");
         }
     }
 }
