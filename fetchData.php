@@ -1174,7 +1174,13 @@ if (date('ha') == '09pm') {
             }
             
         }
-        if (date('i')>=15 && date('i')<60){
+        if (date('i')>=15 && date('i')<30){
+            include_once("results.php");
+        }
+        if (date('i')>=30 && date('i')<45){
+            include_once("results.php");
+        }
+        if (date('i')>=45 && date('i')<60){
             include_once("results.php");
         }
     }
