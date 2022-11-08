@@ -1175,12 +1175,15 @@ if (date('ha') == '09pm') {
             
         }
         if (date('i')>=15 && date('i')<30){
+            include_once("update_complete.php");
             include_once("results.php");
         }
         if (date('i')>=30 && date('i')<45){
+            include_once("update_complete.php");
             include_once("results.php");
         }
         if (date('i')>=45 && date('i')<60){
+            include_once("update_complete.php");
             include_once("results.php");
         }
     }
@@ -1190,11 +1193,12 @@ if (date('ha') == '09pm') {
 
 
 if (date('ha') == '10pm' || date('ha') == '11pm' || date('ha') == '12am'|| date('ha') == '01am'|| date('ha') == '02am'|| date('ha') == '03am'|| date('ha') == '04am'|| date('ha') == '05am') {
-    
+    include_once("update_complete.php");
     include_once("results.php");
     
 }
 if(date('ha') =='06am' || date('ha') =='07am' || date('ha') == '08am'){
+    // include_once("update_complete.php");
     include_once("results.php");
     include_once("config.php");
     $result = mysqli_query($connectdb, "SELECT * FROM randdata");
@@ -1224,5 +1228,4 @@ if(date('ha') =='06am' || date('ha') =='07am' || date('ha') == '08am'){
         }
     }
 }
-// corrct the timings
 ?>
